@@ -1,8 +1,8 @@
 import jwt
 
-# ===============================
+# ==================================
 # 4. ANÁLISIS / VALIDACIÓN JWT HS256
-# ===============================
+# ===================================
 
 clave = "Con KeepCoding aprendemos"
 
@@ -12,9 +12,9 @@ jwt_original = ("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiRG9uIFBlcG
 # JWT modificado por un atacante (rol isAdmin)
 jwt_hacker = ("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvIjoiRG9uIFBlcGl0byBkZSBsb3MgcGFsb3RlcyIsInJvbCI6ImlzQWRtaW4iLCJpYXQiOjE2Njc5MzM1MzN9.krgBkzCBQ5WZ8JnZHuRvmnAZdg4ZMeRNv2CIAODlHRI")
 
-# ===================================================
-# 4.1 DECODIFICAR SIN VALIDAR (solo para ver la info)
-# ====================================================
+#-----------------------------------------------------------------------------------------
+
+# 4.1 Decodificar sin validar (solo para ver la info)
 
 print("Header original:", jwt.get_unverified_header(jwt_original))
 print("Payload original (sin verificar):",
@@ -23,9 +23,9 @@ print("Payload original (sin verificar):",
 print("Payload hacker (sin verificar):",
       jwt.decode(jwt_hacker, options={"verify_signature": False}))
 
-# ===============================
-# 4.2 VALIDAR FIRMA DEL JWT BUENO
-# ===============================
+#-----------------------------------------------------------------------------------------
+
+# 4.2 Validar firma JWT bueno
 
 try:
     valido = jwt.decode(jwt_original, clave, algorithms=["HS256"])
@@ -33,9 +33,9 @@ try:
 except Exception as e:
     print("Error validando el JWT original:", e)
 
-# ===============================
-# 4.3 VALIDAR FIRMA DEL JWT HACKER
-# ===============================
+#-----------------------------------------------------------------------------------------
+
+# 4.3 Validar firma del JWT hacker
 
 try:
     jwt.decode(jwt_hacker, clave, algorithms=["HS256"])

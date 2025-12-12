@@ -22,13 +22,3 @@ ciphertext_bytes, tag_bytes = cipher.encrypt_and_digest(texto_bytes)
 print("Texto cifrado (hex):", ciphertext_bytes.hex())
 print("Texto cifrado (base64):", base64.b64encode(ciphertext_bytes).decode("ascii"))
 
-# ============================================================
-# RESPUESTA TEÓRICA (¿Qué estamos haciendo mal?)
-# ============================================================
-# En AES-GCM no se puede reutilizar el mismo nonce con la misma clave.
-# El enunciado fija siempre:
-#   Key   = E2CFF8...
-#   Nonce = 9Yccn/f5nJJhAt2S
-# Si se usa ese par (Key, Nonce) en todas las comunicaciones, se rompe
-# la seguridad de GCM: el nonce debe ser único por mensaje.
-# ============================================================
