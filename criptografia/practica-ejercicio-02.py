@@ -8,7 +8,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
 # ===============================
-# 1. DATOS DEL EJERCÍCIO
+# DATOS DEL EJERCÍCIO
 # ===============================
 
 # Clave AES-256 en hexadecimal (32 bytes -> 64 caracteres hex)
@@ -36,7 +36,7 @@ print(texto_plano_bytes.decode("utf-8"))
 #Esto es un cifrado en bloque típico. Recuerda, vas por el buen camino. Ánimo.
 
 # ===============================
-# 3. DESCIFRADO CON X923
+# 2.1 DESCIFRADO CON X923
 # ===============================
 
 cipher = AES.new(clave_bytes, AES.MODE_CBC, iv_bytes)
@@ -49,19 +49,16 @@ print(texto_plano_bytes.decode("utf-8"))
 #Lo que ocurre es que FUNCIONA!! 
 
 # ===============================
-# 4. CANTIDAD PADDING 
+# 2.2 CANTIDAD PADDING 
 # ===============================
 
 # Se añadió 1 byte de padding: \x01
 
 #Lo que ocurre es que FUNCIONA!! 
 
-# ===============================
-# 5. PLUS CONEXIÓN KEYSTORE 
-# ===============================
 
 # ===============================
-# 5. PLUS: CONEXIÓN AL KEYSTORE
+# 2.3 PLUS: CONEXIÓN AL KEYSTORE
 # ===============================
 
 # Obtener ruta del script y montar ruta del keystore
