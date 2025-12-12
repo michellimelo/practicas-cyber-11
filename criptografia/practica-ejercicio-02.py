@@ -8,7 +8,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
 # ===============================
-# DATOS DEL EJERCÍCIO
+# 2. DESCIFRADO PKCS7 / X923
 # ===============================
 
 # Clave AES-256 en hexadecimal (32 bytes -> 64 caracteres hex)
@@ -22,10 +22,9 @@ iv_bytes = bytes.fromhex("00000000000000000000000000000000")
 texto_b64 = "TQ9SOMKc6aFS9SlxhfK9wT18UXpPCd505Xf5J/5nLI7Of/o0QKIWXg3nu1RRz4QWElezdrLAD5LO4USt3aB/i50nvvJbBiG+le1ZhpR84oI="
 texto_cifrado_bytes = b64decode(texto_b64)
 
-# ===============================
-# 2. DESCIFRADO CON PKCS7
-# ===============================
+#-----------------------------------------------------------------------------------------
 
+# 2.1 Descifrado con PKCS7
 cipher = AES.new(clave_bytes, AES.MODE_CBC, iv_bytes)
 texto_con_padding = cipher.decrypt(texto_cifrado_bytes)
 print(texto_con_padding) #lo hice por curiosidad jeje
@@ -33,12 +32,9 @@ print(texto_con_padding) #lo hice por curiosidad jeje
 texto_plano_bytes = unpad(texto_con_padding, AES.block_size, style="pkcs7")
 print(texto_plano_bytes.decode("utf-8"))
 
-#Esto es un cifrado en bloque típico. Recuerda, vas por el buen camino. Ánimo.
+#-----------------------------------------------------------------------------------------
 
-# ===============================
-# 2.1 DESCIFRADO CON X923
-# ===============================
-
+# 2.2 Descifrado con X923
 cipher = AES.new(clave_bytes, AES.MODE_CBC, iv_bytes)
 texto_con_padding = cipher.decrypt(texto_cifrado_bytes)
 print(texto_con_padding) #lo hice por curiosidad jeje
@@ -46,20 +42,9 @@ print(texto_con_padding) #lo hice por curiosidad jeje
 texto_plano_bytes = unpad(texto_con_padding, AES.block_size, style="x923")
 print(texto_plano_bytes.decode("utf-8"))
 
-#Lo que ocurre es que FUNCIONA!! 
+#-----------------------------------------------------------------------------------------
 
-# ===============================
-# 2.2 CANTIDAD PADDING 
-# ===============================
-
-# Se añadió 1 byte de padding: \x01
-
-#Lo que ocurre es que FUNCIONA!! 
-
-
-# ===============================
-# 2.3 PLUS: CONEXIÓN AL KEYSTORE
-# ===============================
+# 2.4 Conexión keystore
 
 # Obtener ruta del script y montar ruta del keystore
 path = os.path.dirname(__file__)
