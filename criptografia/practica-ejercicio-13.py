@@ -35,15 +35,14 @@ print("----------------------------------------")
 
 # 2 Firma con curva elíptca ED25519
 
-f = open("ed25519-priv", "rb")
-key_bytes = f.read()
-f.close()
+with open("ed25519-priv", "rb") as f:
+    key_bytes = f.read()
 
-seed = key_bytes[:32]  # SOLO 32 bytes
-ed_private_key = ed25519.Ed25519PrivateKey.from_private_bytes(seed)
+seed32 = key_bytes[:32]  # nos quedamos con los 32 primeros bytes
+ed_private_key = ed25519.Ed25519PrivateKey.from_private_bytes(seed32)
 
-firma_ed25519 = ed_private_key.sign(mensaje_bytes)
+firma_ed = ed_private_key.sign(mensaje_bytes)
 
 print("Firma Ed25519 (hex):")
-print(firma_ed25519.hex())
-print("----------------------------------------")
+print(firma_ed.hex())
+print("--------------------------------------------------")
