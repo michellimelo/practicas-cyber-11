@@ -11,7 +11,7 @@ import hashlib
 # ===============================================
 
 # Texto indicado
-texto = "Siempre existe más de una forma de hacerlo, y más de una solución válida"
+texto = "Siempre existe más de una forma de hacerlo, y más de una solución válida."
 
 # Ruta del keystore (mismo directorio del script)
 path = os.path.dirname(__file__)
