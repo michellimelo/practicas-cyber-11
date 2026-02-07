@@ -1,0 +1,386 @@
+{
+  "_index": ".ds-logs-suricata.eve-default-2026.01.28-000001",
+  "_id": "AZwslyyySOB4jS_dvYBK",
+  "_version": 1,
+  "_ignored": [
+    "event.type",
+    "suricata.eve.dns.answers"
+  ],
+  "_source": {
+    "@timestamp": "2026-02-05T06:57:44.179Z",
+    "agent": {
+      "ephemeral_id": "08a9eeee-251d-474b-893f-17925b5db215",
+      "id": "6009a4e9-4508-473a-8b3f-10b0fca5b9ca",
+      "name": "kali",
+      "type": "filebeat",
+      "version": "9.2.4"
+    },
+    "data_stream": {
+      "dataset": "suricata.eve",
+      "namespace": "default",
+      "type": "logs"
+    },
+    "destination": {
+      "address": "192.168.250.100",
+      "ip": "192.168.250.100",
+      "port": 35953
+    },
+    "dns": {
+      "header_flags": [
+        "RD",
+        "RA"
+      ],
+      "id": "12372",
+      "response_code": "NOERROR",
+      "type": "response"
+    },
+    "ecs": {
+      "version": "8.17.0"
+    },
+    "elastic_agent": {
+      "id": "6009a4e9-4508-473a-8b3f-10b0fca5b9ca",
+      "snapshot": false,
+      "version": "9.2.4"
+    },
+    "event": {
+      "agent_id_status": "verified",
+      "category": [
+        "network"
+      ],
+      "created": "2026-02-05T06:57:45.200Z",
+      "dataset": "suricata.eve",
+      "ingested": "2026-02-05T06:57:56Z",
+      "kind": "event",
+      "type": [
+        "protocol"
+      ]
+    },
+    "input": {
+      "type": "log"
+    },
+    "log": {
+      "file": {
+        "path": "/var/log/suricata/eve.json"
+      },
+      "offset": 8494006
+    },
+    "network": {
+      "community_id": "1:RbtVTvkHdDhENOoPWwopkyLtBO0=",
+      "protocol": "dns",
+      "transport": "udp"
+    },
+    "observer": {
+      "hostname": "kali",
+      "ip": [
+        "192.168.250.100",
+        "fe80::2579:ec31:d79b:963f",
+        "172.17.0.1"
+      ],
+      "mac": [
+        "02-42-F5-C3-67-1E",
+        "08-00-27-B1-B3-94"
+      ],
+      "product": "Suricata",
+      "type": "ids",
+      "vendor": "OISF"
+    },
+    "related": {
+      "ip": [
+        "8.8.8.8",
+        "192.168.250.100"
+      ]
+    },
+    "source": {
+      "address": "8.8.8.8",
+      "as": {
+        "number": 15169,
+        "organization": {
+          "name": "Google LLC"
+        }
+      },
+      "geo": {
+        "continent_name": "North America",
+        "country_iso_code": "US",
+        "country_name": "United States",
+        "location": {
+          "lat": 37.75099997408688,
+          "lon": -97.8220000024885
+        }
+      },
+      "ip": "8.8.8.8",
+      "port": 53
+    },
+    "suricata": {
+      "eve": {
+        "dns": {
+          "answers": [
+            {
+              "rrname": "def9252c8c4740439e80836a22c5ea1b.us-central1.gcp.cloud.es.io",
+              "rdata": "proxy-production-us-central1.gcp.cloud.es.io",
+              "ttl": 54,
+              "rrtype": "CNAME"
+            },
+            {
+              "rrname": "proxy-production-us-central1.gcp.cloud.es.io",
+              "rdata": "proxy-production-us-central1-v2.gcp.cloud.es.io",
+              "ttl": 54,
+              "rrtype": "CNAME"
+            },
+            {
+              "rrname": "proxy-production-us-central1-v2.gcp.cloud.es.io",
+              "rdata": "35.193.143.25",
+              "ttl": 31,
+              "rrtype": "A"
+            }
+          ],
+          "id": 12372,
+          "opcode": 0,
+          "queries": [
+            {
+              "rrname": "def9252c8c4740439e80836a22c5ea1b.us-central1.gcp.cloud.es.io",
+              "rrtype": "A"
+            }
+          ],
+          "rcode": "NOERROR",
+          "tx_id": 3,
+          "type": "response"
+        },
+        "event_type": "dns",
+        "flow_id": "1554190210223540",
+        "in_iface": "eth0",
+        "ip_v": 4,
+        "pkt_src": "wire/pcap"
+      }
+    },
+    "tags": [
+      "forwarded",
+      "suricata-eve"
+    ]
+  },
+  "fields": {
+    "dns.type": [
+      "response"
+    ],
+    "elastic_agent.version": [
+      "9.2.4"
+    ],
+    "event.category": [
+      "network"
+    ],
+    "observer.vendor": [
+      "OISF"
+    ],
+    "source.ip": [
+      "8.8.8.8"
+    ],
+    "agent.name": [
+      "kali"
+    ],
+    "destination.address": [
+      "192.168.250.100"
+    ],
+    "suricata.eve.event_type": [
+      "dns"
+    ],
+    "suricata.eve.dns.answers.rrname": [
+      "def9252c8c4740439e80836a22c5ea1b.us-central1.gcp.cloud.es.io",
+      "proxy-production-us-central1.gcp.cloud.es.io",
+      "proxy-production-us-central1-v2.gcp.cloud.es.io"
+    ],
+    "network.community_id": [
+      "1:RbtVTvkHdDhENOoPWwopkyLtBO0="
+    ],
+    "observer.mac": [
+      "02-42-F5-C3-67-1E",
+      "08-00-27-B1-B3-94"
+    ],
+    "event.agent_id_status": [
+      "verified"
+    ],
+    "suricata.eve.dns.rcode": [
+      "NOERROR"
+    ],
+    "event.kind": [
+      "event"
+    ],
+    "suricata.eve.flow_id": [
+      "1554190210223540"
+    ],
+    "suricata.eve.dns.answers.rdata": [
+      "proxy-production-us-central1.gcp.cloud.es.io",
+      "proxy-production-us-central1-v2.gcp.cloud.es.io",
+      "35.193.143.25"
+    ],
+    "input.type": [
+      "log"
+    ],
+    "log.offset": [
+      8494006
+    ],
+    "suricata.eve.in_iface": [
+      "eth0"
+    ],
+    "data_stream.type": [
+      "logs"
+    ],
+    "tags": [
+      "forwarded",
+      "suricata-eve"
+    ],
+    "agent.id": [
+      "6009a4e9-4508-473a-8b3f-10b0fca5b9ca"
+    ],
+    "source.port": [
+      53
+    ],
+    "ecs.version": [
+      "8.17.0"
+    ],
+    "observer.type": [
+      "ids"
+    ],
+    "event.created": [
+      "2026-02-05T06:57:45.200Z"
+    ],
+    "agent.version": [
+      "9.2.4"
+    ],
+    "suricata.eve.dns.queries.rrname": [
+      "def9252c8c4740439e80836a22c5ea1b.us-central1.gcp.cloud.es.io"
+    ],
+    "observer.ip": [
+      "192.168.250.100",
+      "fe80::2579:ec31:d79b:963f",
+      "172.17.0.1"
+    ],
+    "source.as.number": [
+      15169
+    ],
+    "suricata.eve.dns.tx_id": [
+      3
+    ],
+    "destination.port": [
+      35953
+    ],
+    "source.geo.location": [
+      {
+        "coordinates": [
+          -97.8220000024885,
+          37.75099997408688
+        ],
+        "type": "Point"
+      }
+    ],
+    "source.address": [
+      "8.8.8.8"
+    ],
+    "agent.type": [
+      "filebeat"
+    ],
+    "event.module": [
+      "suricata"
+    ],
+    "network.protocol": [
+      "dns"
+    ],
+    "related.ip": [
+      "8.8.8.8",
+      "192.168.250.100"
+    ],
+    "dns.header_flags": [
+      "RD",
+      "RA"
+    ],
+    "source.geo.country_iso_code": [
+      "US"
+    ],
+    "observer.product": [
+      "Suricata"
+    ],
+    "elastic_agent.snapshot": [
+      false
+    ],
+    "suricata.eve.dns.id": [
+      12372
+    ],
+    "suricata.eve.dns.queries.rrtype": [
+      "A"
+    ],
+    "suricata.eve.pkt_src": [
+      "wire/pcap"
+    ],
+    "source.as.organization.name.text": [
+      "Google LLC"
+    ],
+    "elastic_agent.id": [
+      "6009a4e9-4508-473a-8b3f-10b0fca5b9ca"
+    ],
+    "data_stream.namespace": [
+      "default"
+    ],
+    "dns.id": [
+      "12372"
+    ],
+    "suricata.eve.dns.answers.rrtype": [
+      "CNAME",
+      "CNAME",
+      "A"
+    ],
+    "source.as.organization.name": [
+      "Google LLC"
+    ],
+    "source.geo.continent_name": [
+      "North America"
+    ],
+    "suricata.eve.ip_v": [
+      4
+    ],
+    "destination.ip": [
+      "192.168.250.100"
+    ],
+    "observer.hostname": [
+      "kali"
+    ],
+    "network.transport": [
+      "udp"
+    ],
+    "event.ingested": [
+      "2026-02-05T06:57:56.000Z"
+    ],
+    "@timestamp": [
+      "2026-02-05T06:57:44.179Z"
+    ],
+    "data_stream.dataset": [
+      "suricata.eve"
+    ],
+    "log.file.path": [
+      "/var/log/suricata/eve.json"
+    ],
+    "event.type": [
+      "protocol"
+    ],
+    "agent.ephemeral_id": [
+      "08a9eeee-251d-474b-893f-17925b5db215"
+    ],
+    "suricata.eve.dns.opcode": [
+      0
+    ],
+    "dns.response_code": [
+      "NOERROR"
+    ],
+    "source.geo.country_name": [
+      "United States"
+    ],
+    "suricata.eve.dns.type": [
+      "response"
+    ],
+    "event.dataset": [
+      "suricata.eve"
+    ],
+    "suricata.eve.dns.answers.ttl": [
+      54,
+      54,
+      31
+    ]
+  }
+}
