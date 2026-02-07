@@ -1,0 +1,199 @@
+{
+  "_index": ".ds-logs-cowrie-cowrie-2026.01.28-000001",
+  "_id": "AZw2txo71gYsMWBIsmrK",
+  "_version": 1,
+  "_source": {
+    "@timestamp": "2026-02-07T06:08:18.580Z",
+    "agent": {
+      "ephemeral_id": "b57f7439-54cb-4f85-9d0e-f40f74a58986",
+      "id": "7013292e-3e69-4f62-8704-a80250595bdc",
+      "name": "kali-honey",
+      "type": "filebeat",
+      "version": "9.2.5"
+    },
+    "data_stream": {
+      "dataset": "cowrie",
+      "namespace": "cowrie",
+      "type": "logs"
+    },
+    "ecs": {
+      "version": "8.0.0"
+    },
+    "elastic_agent": {
+      "id": "7013292e-3e69-4f62-8704-a80250595bdc",
+      "snapshot": false,
+      "version": "9.2.5"
+    },
+    "event": {
+      "agent_id_status": "verified",
+      "dataset": "cowrie",
+      "ingested": "2026-02-07T06:08:27Z"
+    },
+    "host": {
+      "architecture": "x86_64",
+      "containerized": false,
+      "hostname": "kali-honey",
+      "id": "66182f4ac2894a90bebafacaf6c8f1a6",
+      "ip": [
+        "192.168.200.98",
+        "fe80::f2dc:120:f22d:6eef",
+        "172.17.0.1",
+        "fe80::42:cfff:fe4a:fb74",
+        "fe80::9c78:3aff:fe18:1420"
+      ],
+      "mac": [
+        "02-42-CF-4A-FB-74",
+        "08-00-27-28-BB-BB",
+        "9E-78-3A-18-14-20"
+      ],
+      "name": "kali-honey",
+      "os": {
+        "codename": "kali-rolling",
+        "family": "debian",
+        "kernel": "6.16.8+kali-amd64",
+        "name": "Kali GNU/Linux",
+        "platform": "kali",
+        "type": "linux",
+        "version": "2025.4"
+      }
+    },
+    "input": {
+      "type": "filestream"
+    },
+    "log": {
+      "file": {
+        "device_id": "2049",
+        "fingerprint": "f48e2962cb87ea60b8f016ee60d744cb1604d9a78da23df6d449ff44463a29e7",
+        "inode": "1371131",
+        "path": "/home/kali/log_cowrie/cowrie.log"
+      },
+      "offset": "6813"
+    },
+    "message": "2026-02-07T06:08:17+0000 [HoneyPotSSHTransport,1,172.17.0.1] Connection lost after 39.9 seconds"
+  },
+  "fields": {
+    "elastic_agent.version": [
+      "9.2.5"
+    ],
+    "host.os.name.text": [
+      "Kali GNU/Linux"
+    ],
+    "host.hostname": [
+      "kali-honey"
+    ],
+    "host.mac": [
+      "02-42-CF-4A-FB-74",
+      "08-00-27-28-BB-BB",
+      "9E-78-3A-18-14-20"
+    ],
+    "host.ip": [
+      "192.168.200.98",
+      "fe80::f2dc:120:f22d:6eef",
+      "172.17.0.1",
+      "fe80::42:cfff:fe4a:fb74",
+      "fe80::9c78:3aff:fe18:1420"
+    ],
+    "agent.type": [
+      "filebeat"
+    ],
+    "event.module": [
+      "filestream"
+    ],
+    "host.os.version": [
+      "2025.4"
+    ],
+    "host.os.kernel": [
+      "6.16.8+kali-amd64"
+    ],
+    "log.file.device_id": [
+      "2049"
+    ],
+    "host.os.name": [
+      "Kali GNU/Linux"
+    ],
+    "agent.name": [
+      "kali-honey"
+    ],
+    "elastic_agent.snapshot": [
+      false
+    ],
+    "host.name": [
+      "kali-honey"
+    ],
+    "event.agent_id_status": [
+      "verified"
+    ],
+    "host.id": [
+      "66182f4ac2894a90bebafacaf6c8f1a6"
+    ],
+    "host.os.type": [
+      "linux"
+    ],
+    "elastic_agent.id": [
+      "7013292e-3e69-4f62-8704-a80250595bdc"
+    ],
+    "data_stream.namespace": [
+      "cowrie"
+    ],
+    "host.os.codename": [
+      "kali-rolling"
+    ],
+    "input.type": [
+      "filestream"
+    ],
+    "log.offset": [
+      "6813"
+    ],
+    "message": [
+      "2026-02-07T06:08:17+0000 [HoneyPotSSHTransport,1,172.17.0.1] Connection lost after 39.9 seconds"
+    ],
+    "data_stream.type": [
+      "logs"
+    ],
+    "host.architecture": [
+      "x86_64"
+    ],
+    "event.ingested": [
+      "2026-02-07T06:08:27.000Z"
+    ],
+    "@timestamp": [
+      "2026-02-07T06:08:18.580Z"
+    ],
+    "agent.id": [
+      "7013292e-3e69-4f62-8704-a80250595bdc"
+    ],
+    "ecs.version": [
+      "8.0.0"
+    ],
+    "host.containerized": [
+      false
+    ],
+    "host.os.platform": [
+      "kali"
+    ],
+    "log.file.inode": [
+      "1371131"
+    ],
+    "data_stream.dataset": [
+      "cowrie"
+    ],
+    "log.file.path": [
+      "/home/kali/log_cowrie/cowrie.log"
+    ],
+    "agent.ephemeral_id": [
+      "b57f7439-54cb-4f85-9d0e-f40f74a58986"
+    ],
+    "agent.version": [
+      "9.2.5"
+    ],
+    "log.file.fingerprint": [
+      "f48e2962cb87ea60b8f016ee60d744cb1604d9a78da23df6d449ff44463a29e7"
+    ],
+    "host.os.family": [
+      "debian"
+    ],
+    "event.dataset": [
+      "cowrie"
+    ]
+  }
+}

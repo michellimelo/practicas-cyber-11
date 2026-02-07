@@ -1,0 +1,196 @@
+{
+  "_index": ".ds-metrics-windows.perfmon-default-2026.01.28-000001",
+  "_id": "5WPKLJwBO4BPnQwCMutF",
+  "_version": 1,
+  "_source": {
+    "agent": {
+      "name": "Windows10",
+      "id": "a9cd9b94-cbbc-4c46-8393-b65c8cd0eb5d",
+      "ephemeral_id": "583c5932-a7de-4d76-af52-9a265705ad97",
+      "type": "metricbeat",
+      "version": "9.2.4"
+    },
+    "@timestamp": "2026-02-05T07:50:41.556Z",
+    "ecs": {
+      "version": "8.0.0"
+    },
+    "service": {
+      "type": "windows"
+    },
+    "data_stream": {
+      "namespace": "default",
+      "type": "metrics",
+      "dataset": "windows.perfmon"
+    },
+    "host": {
+      "hostname": "Windows10",
+      "os": {
+        "build": "19045.5247",
+        "kernel": "10.0.19041.5247 (WinBuild.160101.0800)",
+        "name": "Windows 10 Home",
+        "type": "windows",
+        "family": "windows",
+        "version": "10.0",
+        "platform": "windows"
+      },
+      "ip": [
+        "fe80::e7b0:3df0:2803:468f",
+        "192.168.100.50"
+      ],
+      "name": "windows10",
+      "id": "b03073f0-8c78-41e8-81ed-eb67037c01c4",
+      "mac": [
+        "08-00-27-C5-9B-38"
+      ],
+      "architecture": "x86_64"
+    },
+    "elastic_agent": {
+      "id": "a9cd9b94-cbbc-4c46-8393-b65c8cd0eb5d",
+      "version": "9.2.4",
+      "snapshot": false
+    },
+    "metricset": {
+      "period": 10000,
+      "name": "perfmon"
+    },
+    "event": {
+      "duration": 1035104300,
+      "agent_id_status": "verified",
+      "ingested": "2026-02-05T07:52:54Z",
+      "module": "windows",
+      "dataset": "windows.perfmon"
+    },
+    "windows": {
+      "perfmon": {
+        "instance": "System",
+        "metrics": {
+          "cpu_perc": 1.0657802285455713
+        },
+        "object": "Process"
+      }
+    }
+  },
+  "fields": {
+    "elastic_agent.version": [
+      "9.2.4"
+    ],
+    "host.os.name.text": [
+      "Windows 10 Home"
+    ],
+    "host.hostname": [
+      "Windows10"
+    ],
+    "host.mac": [
+      "08-00-27-C5-9B-38"
+    ],
+    "host.os.build": [
+      "19045.5247"
+    ],
+    "service.type": [
+      "windows"
+    ],
+    "host.ip": [
+      "fe80::e7b0:3df0:2803:468f",
+      "192.168.100.50"
+    ],
+    "agent.type": [
+      "metricbeat"
+    ],
+    "event.module": [
+      "windows"
+    ],
+    "agent.name.text": [
+      "Windows10"
+    ],
+    "host.os.version": [
+      "10.0"
+    ],
+    "windows.perfmon.metrics.cpu_perc": [
+      1
+    ],
+    "host.os.kernel": [
+      "10.0.19041.5247 (WinBuild.160101.0800)"
+    ],
+    "host.os.name": [
+      "Windows 10 Home"
+    ],
+    "agent.name": [
+      "Windows10"
+    ],
+    "elastic_agent.snapshot": [
+      false
+    ],
+    "host.name": [
+      "windows10"
+    ],
+    "event.agent_id_status": [
+      "verified"
+    ],
+    "host.id": [
+      "b03073f0-8c78-41e8-81ed-eb67037c01c4"
+    ],
+    "metricset.name.text": [
+      "perfmon"
+    ],
+    "host.os.type": [
+      "windows"
+    ],
+    "elastic_agent.id": [
+      "a9cd9b94-cbbc-4c46-8393-b65c8cd0eb5d"
+    ],
+    "windows.perfmon.object": [
+      "Process"
+    ],
+    "data_stream.namespace": [
+      "default"
+    ],
+    "windows.perfmon.instance": [
+      "System"
+    ],
+    "metricset.period": [
+      10000
+    ],
+    "data_stream.type": [
+      "metrics"
+    ],
+    "event.duration": [
+      1035104300
+    ],
+    "host.architecture": [
+      "x86_64"
+    ],
+    "metricset.name": [
+      "perfmon"
+    ],
+    "event.ingested": [
+      "2026-02-05T07:52:54.000Z"
+    ],
+    "@timestamp": [
+      "2026-02-05T07:50:41.556Z"
+    ],
+    "agent.id": [
+      "a9cd9b94-cbbc-4c46-8393-b65c8cd0eb5d"
+    ],
+    "ecs.version": [
+      "8.0.0"
+    ],
+    "host.os.platform": [
+      "windows"
+    ],
+    "data_stream.dataset": [
+      "windows.perfmon"
+    ],
+    "agent.ephemeral_id": [
+      "583c5932-a7de-4d76-af52-9a265705ad97"
+    ],
+    "agent.version": [
+      "9.2.4"
+    ],
+    "host.os.family": [
+      "windows"
+    ],
+    "event.dataset": [
+      "windows.perfmon"
+    ]
+  }
+}
