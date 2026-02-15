@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Factura>
+  <Numero>2026-0001</Numero>
+  <Emisor>Laboratorio Firma</Emisor>
+  <Importe>100.00</Importe>
+</Factura>
