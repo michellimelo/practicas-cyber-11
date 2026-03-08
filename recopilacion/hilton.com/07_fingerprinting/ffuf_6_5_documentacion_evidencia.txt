@@ -1,0 +1,9 @@
+[PATH] /home/kali/recopilacion/hilton.com
+[WORDLIST] /usr/share/seclists/Discovery/Web-Content/raft-medium-words.txt
+[FILES]
+-rw-r--r-- 1 kali kali 1.9K Mar  7 13:13 07_fingerprinting/ffuf_hilton_com.json
+-rw-rw-r-- 1 kali kali    0 Mar  7 12:19 07_fingerprinting/ffuf_hilton_com_raw.txt
+[RAW: FINISHED?]
+[RAW: LAST 30 LINES]
+[JSON: RESULT COUNT]
+0

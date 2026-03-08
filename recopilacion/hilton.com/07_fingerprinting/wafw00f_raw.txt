@@ -1,0 +1,887 @@
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='aaa.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='aaa.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site aaa.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='alexandria.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='alexandria.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site alexandria.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='amaze.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='amaze.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site amaze.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='amex.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='amex.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site amex.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='atlanta.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='atlanta.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site atlanta.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='autodiscover.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='autodiscover.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site autodiscover.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='bali.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='bali.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site bali.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='bcm.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='bcm.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site bcm.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='bd.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='bd.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site bd.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='beijing.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='beijing.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site beijing.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='berlin.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='berlin.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site berlin.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='bts.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='bts.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site bts.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='capital.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='capital.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site capital.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='careers.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='careers.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site careers.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='china.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='china.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site china.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='corporate.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='corporate.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site corporate.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='covid.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='covid.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site covid.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='covid-origin.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='covid-origin.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site covid-origin.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='development.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='development.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site development.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='discover.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='discover.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site discover.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='dna.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='dna.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site dna.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='engage.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='engage.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site engage.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='eros.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='eros.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site eros.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='eugene.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='eugene.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site eugene.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='excel.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='excel.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site excel.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='families.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='families.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site families.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='finance.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='finance.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site finance.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='fonts.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='fonts.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site fonts.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='fractal.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='fractal.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site fractal.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='french.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='french.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site french.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='gen.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='gen.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site gen.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='go.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='go.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site go.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='golf.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='golf.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site golf.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='groupguides.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='groupguides.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site groupguides.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='gtp.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='gtp.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site gtp.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='hsm.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='hsm.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site hsm.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='kiev.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='kiev.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site kiev.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='lima.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='lima.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site lima.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='milan.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='milan.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site milan.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='momvoyage.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='momvoyage.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site momvoyage.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='moscow.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='moscow.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site moscow.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='newyork.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='newyork.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site newyork.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='paris.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='paris.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site paris.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:wafw00f:Site pki.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='rdf-dual-stg.hilton.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: RECORD_LAYER_FAILURE] record layer failure (_ssl.c:1033)')))
+ERROR:wafw00f:Site rdf-dual-stg.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='referrals.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='referrals.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site referrals.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='revenuesupport.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='revenuesupport.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site revenuesupport.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+
+                [1;97m______
+               [1;97m/      \
+              [1;97m(  W00f! )
+               [1;97m\  ____/
+               [1;97m,,    [1;92m__            [1;93m404 Hack Not Found
+           [1;96m|`-.__   [1;92m/ /                     [1;91m __     __
+           [1;96m/"  _/  [1;92m/_/                       [1;91m\ \   / /
+          [1;94m*===*    [1;92m/                          [1;91m\ \_/ /  [1;93m405 Not Allowed
+         [1;96m/     )__//                           [1;91m\   /
+    [1;96m/|  /     /---`                        [1;93m403 Forbidden
+    [1;96m\\/`   \ |                                 [1;91m/ _ \
+    [1;96m`\    /_\\_              [1;93m502 Bad Gateway  [1;91m/ / \ \  [1;93m500 Internal Error
+      [1;96m`_____``-`                             [1;91m/_/   \_\\
+
+                        [1;96m~ WAFW00F : [1;94mv2.3.2 ~[1;97m
+        The Web Application Firewall Fingerprinting Toolkit
+    [0m
+[*] Checking https://aaa.hilton.com
+[*] Checking https://alexandria.hilton.com
+[*] Checking https://amaze.hilton.com
+[*] Checking https://amex.hilton.com
+[*] Checking https://atlanta.hilton.com
+[*] Checking https://autodiscover.hilton.com
+[*] Checking https://bali.hilton.com
+[*] Checking https://bcm.hilton.com
+[*] Checking https://bd.hilton.com
+[*] Checking https://beijing.hilton.com
+[*] Checking https://berlin.hilton.com
+[*] Checking https://bts.hilton.com
+[*] Checking https://capital.hilton.com
+[*] Checking https://careers.hilton.com
+[*] Checking https://china.hilton.com
+[*] Checking https://corporate.hilton.com
+[*] Checking https://covid.hilton.com
+[*] Checking https://covid-origin.hilton.com
+[*] Checking https://development.hilton.com
+[*] Checking https://discover.hilton.com
+[*] Checking https://dna.hilton.com
+[*] Checking https://engage.hilton.com
+[*] Checking https://eros.hilton.com
+[*] Checking https://eugene.hilton.com
+[*] Checking https://excel.hilton.com
+[*] Checking https://families.hilton.com
+[*] Checking https://finance.hilton.com
+[*] Checking https://fonts.hilton.com
+[*] Checking https://fractal.hilton.com
+[*] Checking https://french.hilton.com
+[*] Checking https://gen.hilton.com
+[*] Checking https://go.hilton.com
+[*] Checking https://golf.hilton.com
+[*] Checking https://groupguides.hilton.com
+[*] Checking https://gtp.hilton.com
+[*] Checking https://hsm.hilton.com
+[*] Checking https://kiev.hilton.com
+[*] Checking https://lima.hilton.com
+[*] Checking https://milan.hilton.com
+[*] Checking https://momvoyage.hilton.com
+[*] Checking https://moscow.hilton.com
+[*] Checking https://newyork.hilton.com
+[*] Checking https://paris.hilton.com
+[*] Checking https://pki.hilton.com
+[*] Checking https://rdf-dual-stg.hilton.com
+[*] Checking https://referrals.hilton.com
+[*] Checking https://revenuesupport.hilton.com
+[*] Checking https://a1.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://acrl.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://aloha-1.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://aloha.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://alumni.hilton.com
+[+] Generic Detection results:
+[*] The site https://alumni.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to a SQL injection attack is "403"
+[~] Number of requests: 7
+[*] Checking https://apac.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://api.asiapac.hilton.com
+[+] Generic Detection results:
+[*] The site https://api.asiapac.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "403", while the response code to a modified request is "400"
+[~] Number of requests: 4
+[*] Checking https://api-cr.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://api-cr-stage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://ar.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://austin.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://hilton.com
+[+] Generic Detection results:
+[*] The site https://hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 4
+[*] Checking https://beacon.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://brandportal.hilton.com
+[+] Generic Detection results:
+[*] The site https://brandportal.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://brandstandards.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://brandstandardsstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://creditcard.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://cr.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://dc.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://designinformation.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://designinformationstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://digitalasset-delivery1.hilton.com
+[+] The site [1;94mhttps://digitalasset-delivery1.hilton.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://digitalassetd.hilton.com
+[+] The site [1;94mhttps://digitalassetd.hilton.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://digitalasset.hilton.com
+[+] Generic Detection results:
+[*] The site https://digitalasset.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://digitalassetq.hilton.com
+[+] Generic Detection results:
+[*] The site https://digitalassetq.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://dms.hilton.com
+[+] The site [1;94mhttps://dms.hilton.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dmstest.hilton.com
+[+] The site [1;94mhttps://dmstest.hilton.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://doubletreedesignstudio.hilton.com
+[+] The site [1;94mhttps://doubletreedesignstudio.hilton.com[0m is behind [1;96mAzure Application Gateway (Microsoft)[0m WAF.ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='secure-stg-directconnect.hilton.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: RECORD_LAYER_FAILURE] record layer failure (_ssl.c:1033)')))
+ERROR:wafw00f:Site secure-stg-directconnect.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='seoul.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='seoul.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site seoul.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Site fivefeettofitness.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='simple.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='simple.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site simple.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='sofia.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='sofia.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site sofia.hilton.com appears to be down
+
+[~] Number of requests: 2
+[*] Checking https://secure-stg-directconnect.hilton.com
+[*] Checking https://edge.hilton.com
+[+] The site [1;94mhttps://edge.hilton.com[0m is behind [1;96mKona SiteDefender (Akamai)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://emea.hilton.com
+[+] Generic Detection results:
+[*] The site https://emea.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 2
+[*] Checking https://enterpriseenrollment.hilton.com
+[+] The site [1;94mhttps://enterpriseenrollment.hilton.com[0m is behind [1;96mAzure Front Door (Microsoft)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://enterpriseregistration.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://seoul.hilton.com
+[*] Checking https://events.hilton.com
+[+] Generic Detection results:
+[*] The site https://events.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://explore.hilton.com
+[+] Generic Detection results:
+[*] The site https://explore.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://fd.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://fdstg.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://fitness.hilton.com
+[+] The site [1;94mhttps://fitness.hilton.com[0m is behind [1;96mAzure Application Gateway (Microsoft)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fivefeettofitness.hilton.com
+[*] Checking https://gds-pcd.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://gds-pcdstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://giftstatus.hilton.com
+[+] The site [1;94mhttps://giftstatus.hilton.com[0m is behind [1;96mKona SiteDefender (Akamai)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://group.hilton.com
+[+] Generic Detection results:
+[*] The site https://group.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "AkamaiNetStorage", while the server header a response to an attack is "nginx",
+[~] Number of requests: 7
+[*] Checking https://groups.hilton.com
+[+] The site [1;94mhttps://groups.hilton.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://help.hilton.com
+[+] Generic Detection results:
+[*] The site https://help.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://hiltondesignstudio.hilton.com
+[+] The site [1;94mhttps://hiltondesignstudio.hilton.com[0m is behind [1;96mAzure Application Gateway (Microsoft)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://htsc.hilton.com
+[+] The site [1;94mhttps://htsc.hilton.com[0m is behind [1;96mBIG-IP Local Traffic Manager (F5 Networks)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://id.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://simple.hilton.com
+[*] Checking https://ir.hilton.com
+[+] The site [1;94mhttps://ir.hilton.com[0m is behind [1;96mAWS Elastic Load Balancer (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://jobs.hilton.com
+[+] The site [1;94mhttps://jobs.hilton.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://learn.hilton.com
+[+] Generic Detection results:
+[*] The site https://learn.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "", while the server header a response to an attack is "cloudflare",
+[~] Number of requests: 7
+[*] Checking https://lobby.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://lobbylite.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://luxurysuites.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://mail.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://managementservices.hilton.com
+[+] Generic Detection results:
+[*] The site https://managementservices.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://map.hilton.com
+[+] The site [1;94mhttps://map.hilton.com[0m is behind [1;96mGoogle Cloud App Armor (Google Cloud)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://marketing.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://meetings.hilton.com
+[+] Generic Detection results:
+[*] The site https://meetings.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://mobile.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://msoid.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://mstr.hilton.com
+[+] The site [1;94mhttps://mstr.hilton.com[0m is behind [1;96mAWS Elastic Load Balancer (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://news.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://newsroom.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://now.hilton.com
+[+] Generic Detection results:
+[*] The site https://now.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "", while the server header a response to an attack is "Microsoft-Azure-Application-Gateway/v2",
+[~] Number of requests: 7
+[*] Checking https://sofia.hilton.com
+[*] Checking https://onqinsider.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://onqinsiderservices.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://onqinsiderstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://onqsm.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detectionERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='spanish.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='spanish.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site spanish.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='hms-services-external.dig.hhc.hilton.com', port=80): Max retries exceeded with url: /saml2/authenticate/sso (Caused by NameResolutionError("HTTPConnection(host='hms-services-external.dig.hhc.hilton.com', port=80): Failed to resolve 'hms-services-external.dig.hhc.hilton.com' ([Errno -2] Name or service not known)"))
+ERROR:wafw00f:Site pb.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='portal.asiapac.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='portal.asiapac.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='rapid.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='tmtp.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='tmtp-stg.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Site travel.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='webpv.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+
+[~] Number of requests: 7
+[*] Checking https://owa.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://spanish.hilton.com
+[*] Checking https://pb.hilton.com
+[*] Checking https://pcc.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://pim.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://portal.asiapac.hilton.com
+[+] Generic Detection results:
+[*] The site https://portal.asiapac.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 4
+[*] Checking https://privacy.hilton.com
+[+] Generic Detection results:
+[*] The site https://privacy.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://projecthub.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://projecthubstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://rapid.hilton.com
+[+] Generic Detection results:
+[*] The site https://rapid.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 4
+[*] Checking https://rdf-dual.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://remote.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://requiredtraining.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://resmax.hilton.com
+[+] Generic Detection results:
+[*] The site https://resmax.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "403", while the response code to cross-site scripting attack is "200"
+[~] Number of requests: 5
+[*] Checking https://riodejaneirocopacabana.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://scout.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://secure3.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://secure.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://sez.hilton.com
+[+] The site [1;94mhttps://sez.hilton.com[0m is behind [1;96mEnvoy (EnvoyProxy)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://smetric.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://sm.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://smstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://staging.beacon.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://stories.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://suppliersconnectionstage.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://tableau.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://tableau-stg.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://teammembers.hilton.com
+[+] The site [1;94mhttps://teammembers.hilton.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tm.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://tmtp.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 6
+[*] Checking https://tmtp-stg.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 6
+[*] Checking https://tmx.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://travelagents.hilton.com
+[+] Generic Detection results:
+[*] The site https://travelagents.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://travel.hilton.com
+[*] Checking https://twsengage-guest.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://twsengage-hotel.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://webfilter.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://webpv.hilton.com
+[+] Generic Detection results:
+[*] The site https://webpv.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 2
+[*] Checking https://webpv.stg.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://webpv.test.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www3.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.alumni.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.alumni.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to a SQL injection attack is "403"
+[~] Number of requests: 7
+[*] Checking https://www.austin.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.beverlyhilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.caribehilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.covid.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.covid.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 2
+[*] Checking https://www.digitalasset-delivery1.hilton.com
+[+] The site [1;94mhttps://www.digitalasset-delivery1.hilton.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://www.digitalasset.hilton.com
+[+] Generic Detection results:ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='hilton.com', port=80): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='hilton.com', port=80): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='hilton.com', port=80): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='hilton.com', port=80): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Site www.privacy.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='ta.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='ta.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site ta.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='text.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='text.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site text.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='tir.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='tir.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site tir.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='tokyo.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='tokyo.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site tokyo.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='uber.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='uber.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site uber.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='up.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='up.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site up.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='westloop.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='westloop.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site westloop.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www1.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www1.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www1.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.ar.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.ar.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.ar.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.careers.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.careers.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.careers.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.covid-origin.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.covid-origin.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.covid-origin.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.digitalassetd.hilton.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1033)')))
+ERROR:wafw00f:Site www.digitalassetd.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.discover.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.discover.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.discover.hilton.com appears to be down
+
+[*] The site https://www.digitalasset.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "", while the server header a response to an attack is "cloudflare",
+[~] Number of requests: 7
+[*] Checking https://www.digitalassetq.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.digitalassetq.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "", while the server header a response to an attack is "cloudflare",
+[~] Number of requests: 7
+[*] Checking https://www.eatdrinkhilton.com
+[+] Generic Detection results:
+[*] The site https://www.eatdrinkhilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "403", while the response code to a modified request is "200"
+[~] Number of requests: 4
+[*] Checking https://www.events.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.events.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.explore.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.explore.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.familleshilton.com
+[+] Generic Detection results:
+[*] The site https://www.familleshilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 5
+[*] Checking https://www.fivefeettofitness.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.fivefeettofitness.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.gezinnenhilton.com
+[+] Generic Detection results:
+[*] The site https://www.gezinnenhilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 5
+[*] Checking https://www.giftstatus.hilton.com
+[+] The site [1;94mhttps://www.giftstatus.hilton.com[0m is behind [1;96mKona SiteDefender (Akamai)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://www.help.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.help.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "403", while the response code to a modified request is "200"
+[~] Number of requests: 4
+[*] Checking https://www.htsc.hilton.com
+[+] The site [1;94mhttps://www.htsc.hilton.com[0m is behind [1;96mBIG-IP Local Traffic Manager (F5 Networks)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://www.jobs.hilton.com
+[+] The site [1;94mhttps://www.jobs.hilton.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://www.luxurysuites.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.managementservices.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.managementservices.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.meetings.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.meetings.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.mottobyhilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.privacy.hilton.com
+[*] Checking https://www.riodejaneirocopacabana.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.scout.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.stg.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.stg.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "401", while the response code to a modified request is "403"
+[~] Number of requests: 4
+[*] Checking https://www.stg.my-event.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.test.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.test.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "401", while the response code to a modified request is "403"
+[~] Number of requests: 4
+[*] Checking https://www.test.my-event.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.test.my-event.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "503", while the response code to a modified request is "403"
+[~] Number of requests: 4
+[*] Checking https://www.tm.hilton.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://www.travelagents.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.travelagents.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://www.travel.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.travel.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: Blocking is being done at connection/packet level.
+[~] Number of requests: 2
+[*] Checking https://www.workspacesbyhilton.com
+[+] Generic Detection results:
+[*] The site https://www.workspacesbyhilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://ta.hilton.com
+[*] Checking https://text.hilton.com
+[*] Checking https://tir.hilton.com
+[*] Checking https://tokyo.hilton.com
+[*] Checking https://uber.hilton.com
+[*] Checking https://up.hilton.com
+[*] Checking https://westloop.hilton.com
+[*] Checking https://www1.hilton.com
+[*] Checking https://www.ar.hilton.com
+[*] Checking https://www.careers.hilton.com
+[*] Checking https://www.covid-origin.hilton.com
+[*] Checking https://www.digitalassetd.hilton.com
+[*] Checking https://www.discover.hilton.com
+[*] Checking https://www.families.hilton.comERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.families.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.families.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.families.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.finance.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.finance.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.finance.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.fractal.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.fractal.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.fractal.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.go.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.go.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.go.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.golf.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.golf.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.golf.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.groupguides.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.groupguides.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.groupguides.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.gtp.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.gtp.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.gtp.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.momvoyage.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.momvoyage.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.momvoyage.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.my-event.hilton.com', port=443): Read timed out. (read timeout=7)
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.my.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.my.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.my.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.teammembers.hilton.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1033)')))
+ERROR:wafw00f:Site www.teammembers.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.tir.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.tir.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.tir.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='www.westloop.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.westloop.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site www.westloop.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='xd.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='xd.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site xd.hilton.com appears to be down
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='youth.hilton.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='youth.hilton.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+ERROR:wafw00f:Site youth.hilton.com appears to be down
+
+[*] Checking https://www.finance.hilton.com
+[*] Checking https://www.fractal.hilton.com
+[*] Checking https://www.go.hilton.com
+[*] Checking https://www.golf.hilton.com
+[*] Checking https://www.groupguides.hilton.com
+[*] Checking https://www.gtp.hilton.com
+[*] Checking https://www.momvoyage.hilton.com
+[*] Checking https://www.my-event.hilton.com
+[+] Generic Detection results:
+[*] The site https://www.my-event.hilton.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "404", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 4
+[*] Checking https://www.my.hilton.com
+[*] Checking https://www.teammembers.hilton.com
+[*] Checking https://www.tir.hilton.com
+[*] Checking https://www.westloop.hilton.com
+[*] Checking https://xd.hilton.com
+[*] Checking https://youth.hilton.com

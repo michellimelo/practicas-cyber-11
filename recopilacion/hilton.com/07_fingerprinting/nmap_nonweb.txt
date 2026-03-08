@@ -1,0 +1,1717 @@
+# Nmap 7.98 scan initiated Thu Mar  5 06:38:50 2026 as: /usr/lib/nmap/nmap -sV -sC -iL /home/kali/recopilacion/hilton.com/07_fingerprinting/masscan_nonweb_ips.txt -p 21,22,53,110,143,444,445,465,587 -oN /home/kali/recopilacion/hilton.com/07_fingerprinting/nmap_nonweb.txt
+Nmap scan report for sp162.mschosting.cloud (110.4.45.227)
+Host is up (0.027s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  open     ftp          ProFTPD
+| ssl-cert: Subject: commonName=sp162.mschosting.cloud
+| Subject Alternative Name: DNS:sp162.mschosting.cloud
+| Not valid before: 2026-01-31T14:15:44
+|_Not valid after:  2026-05-01T14:15:43
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|_  ftp
+| tls-alpn: 
+|_  ftp
+22/tcp  filtered ssh
+53/tcp  open     domain       (unknown banner: none)
+| dns-nsid: 
+|_  bind.version: none
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|     bind
+|_    none
+110/tcp open     pop3         Dovecot pop3d
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=sp162.mschosting.cloud
+| Subject Alternative Name: DNS:sp162.mschosting.cloud
+| Not valid before: 2026-01-31T14:15:44
+|_Not valid after:  2026-05-01T14:15:43
+|_pop3-capabilities: STLS SASL(PLAIN LOGIN DIGEST-MD5 CRAM-MD5) APOP CAPA AUTH-RESP-CODE USER RESP-CODES UIDL TOP PIPELINING
+143/tcp open     imap         Dovecot imapd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=sp162.mschosting.cloud
+| Subject Alternative Name: DNS:sp162.mschosting.cloud
+| Not valid before: 2026-01-31T14:15:44
+|_Not valid after:  2026-05-01T14:15:43
+|_imap-capabilities: LOGIN-REFERRALS STARTTLS AUTH=LOGIN ID AUTH=PLAIN SASL-IR Pre-login OK capabilities AUTH=DIGEST-MD5 more have listed post-login LITERAL+ IMAP4rev1 IDLE AUTH=CRAM-MD5A0001 ENABLE
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp open     ssl/smtp     Postfix smtpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=sp162.mschosting.cloud
+| Subject Alternative Name: DNS:sp162.mschosting.cloud
+| Not valid before: 2026-01-31T14:15:44
+|_Not valid after:  2026-05-01T14:15:43
+|_smtp-commands: sp162.mschosting.cloud, PIPELINING, SIZE 51200000, ETRN, AUTH DIGEST-MD5 CRAM-MD5 PLAIN LOGIN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, CHUNKING
+587/tcp open     smtp         Postfix smtpd
+| ssl-cert: Subject: commonName=sp162.mschosting.cloud
+| Subject Alternative Name: DNS:sp162.mschosting.cloud
+| Not valid before: 2026-01-31T14:15:44
+|_Not valid after:  2026-05-01T14:15:43
+|_smtp-commands: sp162.mschosting.cloud, PIPELINING, SIZE 51200000, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, CHUNKING
+|_ssl-date: TLS randomness does not represent time
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.98%I=7%D=3/5%Time=69A96B59%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,31,"\0/\0\x06\x85\0\0\x01\0\x01\0\0\0\0\x07version\x04b
+SF:ind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x05\x04none");
+Service Info: Host:  sp162.mschosting.cloud
+
+Nmap scan report for 16.15.178.77
+Host is up (0.064s latency).
+
+PORT    STATE    SERVICE       VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp filtered pop3
+143/tcp filtered imap
+444/tcp open     snpp?
+445/tcp open     microsoft-ds?
+465/tcp filtered smtps
+587/tcp filtered submission
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Nmap scan report for 16.15.207.175
+Host is up (0.060s latency).
+
+PORT    STATE    SERVICE       VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp filtered pop3
+143/tcp filtered imap
+444/tcp open     snpp?
+445/tcp open     microsoft-ds?
+465/tcp filtered smtps
+587/tcp filtered submission
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Nmap scan report for 100.3.174.34.bc.googleusercontent.com (34.174.3.100)
+Host is up (0.11s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  open     ftp          Pure-FTPd
+| ssl-cert: Subject: commonName=c118115.sgvps.net
+| Subject Alternative Name: DNS:c118115.sgvps.net
+| Not valid before: 2026-01-29T07:34:24
+|_Not valid after:  2026-04-29T07:34:23
+|_ssl-date: TLS randomness does not represent time
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3         Dovecot pop3d
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=c118115.sgvps.net
+| Subject Alternative Name: DNS:c118115.sgvps.net
+| Not valid before: 2026-01-29T07:34:24
+|_Not valid after:  2026-04-29T07:34:23
+|_pop3-capabilities: SASL STLS AUTH-RESP-CODE TOP RESP-CODES UIDL CAPA PIPELINING
+143/tcp open     imap         Dovecot imapd
+|_imap-capabilities: CATENATE LOGIN-REFERRALS ENABLE CONDSTORE CONTEXT=SEARCH ID THREAD=ORDEREDSUBJECT SASL-IR ESEARCH LITERAL+ I18NLEVEL=1 NAMESPACE have THREAD=REFS MULTIAPPEND more CHILDREN LOGINDISABLEDA0001 SNIPPET=FUZZY UIDPLUS MOVE post-login SORT=DISPLAY SORT capabilities WITHIN UNSELECT STATUS=SIZE IDLE THREAD=REFERENCES Pre-login OK STARTTLS COMPRESS=DEFLATE LIST-EXTENDED SAVEDATE QUOTA URL-PARTIAL listed QRESYNC ESORT SEARCHRES LIST-STATUS IMAP4rev1 PREVIEW=FUZZY
+| ssl-cert: Subject: commonName=c118115.sgvps.net
+| Subject Alternative Name: DNS:c118115.sgvps.net
+| Not valid before: 2026-01-29T07:34:24
+|_Not valid after:  2026-04-29T07:34:23
+|_ssl-date: TLS randomness does not represent time
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp open     ssl/smtp
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=c118115.sgvps.net
+| Subject Alternative Name: DNS:c118115.sgvps.net
+| Not valid before: 2026-01-29T07:34:24
+|_Not valid after:  2026-04-29T07:34:23
+| fingerprint-strings: 
+|   GenericLines: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:15 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     unrecognized command
+|     unrecognized command
+|   GetRequest: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:21 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     unrecognized command
+|     unrecognized command
+|   Help: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:07 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     214-Commands supported:
+|     AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP VRFY
+|   NULL: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:00 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|_    and/or bulk e-mail.
+| smtp-commands: c118115.sgvps.net Hello 100.3.174.34.bc.googleusercontent.com [171.7.63.103], SIZE 83886080, LIMITS MAILMAX=1000 RCPTMAX=50000, 8BITMIME, DSN, VRFY, AUTH LOGIN PLAIN, HELP
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP VRFY
+587/tcp open     smtp
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   GenericLines: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:38:54 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     unrecognized command
+|     unrecognized command
+|   GetRequest: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:13 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     unrecognized command
+|     unrecognized command
+|   Hello: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:05 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     550-You can not sent a blank HELO/EHLO request. 171.7.63.103 sent [] EHLO/HELO
+|     greeting. Please see RFC 2821 section 4.1.1.1
+|   Help: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:39:06 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|     and/or bulk e-mail.
+|     214-Commands supported:
+|     AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP VRFY
+|   NULL: 
+|     220-c118115.sgvps.net ESMTP #2 Thu, 05 Mar 2026 11:38:54 +0000 
+|     220-We do not authorize the use of this system to transport unsolicited, 
+|_    and/or bulk e-mail.
+| ssl-cert: Subject: commonName=c118115.sgvps.net
+| Subject Alternative Name: DNS:c118115.sgvps.net
+| Not valid before: 2026-01-29T07:34:24
+|_Not valid after:  2026-04-29T07:34:23
+| smtp-commands: c118115.sgvps.net Hello 100.3.174.34.bc.googleusercontent.com [171.7.63.103], SIZE 83886080, LIMITS MAILMAX=1000 RCPTMAX=50000, 8BITMIME, DSN, VRFY, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP VRFY
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port465-TCP:V=7.98%T=SSL%I=7%D=3/5%Time=69A96B5A%P=x86_64-pc-linux-gnu%
+SF:r(NULL,A5,"220-c118115\.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\
+SF:x202026\x2011:39:00\x20\+0000\x20\r\n220-We\x20do\x20not\x20authorize\x
+SF:20the\x20use\x20of\x20this\x20system\x20to\x20transport\x20unsolicited,
+SF:\x20\r\n220\x20and/or\x20bulk\x20e-mail\.\r\n")%r(Help,FF,"220-c118115\
+SF:.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\x202026\x2011:39:07\x20
+SF:\+0000\x20\r\n220-We\x20do\x20not\x20authorize\x20the\x20use\x20of\x20t
+SF:his\x20system\x20to\x20transport\x20unsolicited,\x20\r\n220\x20and/or\x
+SF:20bulk\x20e-mail\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20HELO
+SF:\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HEL
+SF:P\x20VRFY\r\n")%r(GenericLines,D9,"220-c118115\.sgvps\.net\x20ESMTP\x20
+SF:#2\x20Thu,\x2005\x20Mar\x202026\x2011:39:15\x20\+0000\x20\r\n220-We\x20
+SF:do\x20not\x20authorize\x20the\x20use\x20of\x20this\x20system\x20to\x20t
+SF:ransport\x20unsolicited,\x20\r\n220\x20and/or\x20bulk\x20e-mail\.\r\n50
+SF:0\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n")%r(
+SF:GetRequest,D9,"220-c118115\.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20
+SF:Mar\x202026\x2011:39:21\x20\+0000\x20\r\n220-We\x20do\x20not\x20authori
+SF:ze\x20the\x20use\x20of\x20this\x20system\x20to\x20transport\x20unsolici
+SF:ted,\x20\r\n220\x20and/or\x20bulk\x20e-mail\.\r\n500\x20unrecognized\x2
+SF:0command\r\n500\x20unrecognized\x20command\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,A5,"220-c118115\.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\x20202
+SF:6\x2011:38:54\x20\+0000\x20\r\n220-We\x20do\x20not\x20authorize\x20the\
+SF:x20use\x20of\x20this\x20system\x20to\x20transport\x20unsolicited,\x20\r
+SF:\n220\x20and/or\x20bulk\x20e-mail\.\r\n")%r(GenericLines,D9,"220-c11811
+SF:5\.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\x202026\x2011:38:54\x
+SF:20\+0000\x20\r\n220-We\x20do\x20not\x20authorize\x20the\x20use\x20of\x2
+SF:0this\x20system\x20to\x20transport\x20unsolicited,\x20\r\n220\x20and/or
+SF:\x20bulk\x20e-mail\.\r\n500\x20unrecognized\x20command\r\n500\x20unreco
+SF:gnized\x20command\r\n")%r(Hello,128,"220-c118115\.sgvps\.net\x20ESMTP\x
+SF:20#2\x20Thu,\x2005\x20Mar\x202026\x2011:39:05\x20\+0000\x20\r\n220-We\x
+SF:20do\x20not\x20authorize\x20the\x20use\x20of\x20this\x20system\x20to\x2
+SF:0transport\x20unsolicited,\x20\r\n220\x20and/or\x20bulk\x20e-mail\.\r\n
+SF:550-You\x20can\x20not\x20sent\x20a\x20blank\x20HELO/EHLO\x20request\.\x
+SF:20171\.7\.63\.103\x20sent\x20\[\]\x20EHLO/HELO\r\n550\x20greeting\.\x20
+SF:Please\x20see\x20RFC\x202821\x20section\x204\.1\.1\.1\r\n")%r(Help,108,
+SF:"220-c118115\.sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\x202026\x2
+SF:011:39:06\x20\+0000\x20\r\n220-We\x20do\x20not\x20authorize\x20the\x20u
+SF:se\x20of\x20this\x20system\x20to\x20transport\x20unsolicited,\x20\r\n22
+SF:0\x20and/or\x20bulk\x20e-mail\.\r\n214-Commands\x20supported:\r\n214\x2
+SF:0AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NO
+SF:OP\x20QUIT\x20RSET\x20HELP\x20VRFY\r\n")%r(GetRequest,D9,"220-c118115\.
+SF:sgvps\.net\x20ESMTP\x20#2\x20Thu,\x2005\x20Mar\x202026\x2011:39:13\x20\
+SF:+0000\x20\r\n220-We\x20do\x20not\x20authorize\x20the\x20use\x20of\x20th
+SF:is\x20system\x20to\x20transport\x20unsolicited,\x20\r\n220\x20and/or\x2
+SF:0bulk\x20e-mail\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecogni
+SF:zed\x20command\r\n");
+
+Nmap scan report for 40.104.72.114
+Host is up (0.034s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: UIDL TOP STLS
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 848b3df0-d78c-4733-a38e-c2b734864fe3 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 1df732f4-a25a-43be-b173-2e024ed7a42c (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMwBDAEEAMAAwADIANAAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready 848b3df0-d78c-4733-a38e-c2b734864fe3 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+143/tcp open     imap
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMwBDAEEAMAAwADEANwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+|_ssl-date: 2026-03-05T11:42:58+00:00; 0s from scanner time.
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: KUZPR03CA0023.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20848b3d
+SF:f0-d78c-4733-a38e-c2b734864fe3\x20\(tcpproxy/15\.20\.9678\.017\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHA
+SF:AcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20848b3df0-d78c-4733-a38e-c2b734864fe3\x20\(tcpproxy/15\.20\.9678\.01
+SF:7\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuA
+SF:GEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x201df732f4-a25a-43be-b173-2e024ed7a42c\x20\(tcpproxy/15\.20\.9678\.
+SF:017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMwBDAEEAMAAwADIANAA
+SF:uAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAAMwBDAEEAMAA
+SF:wADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBVAFoAUABSADAAMwBDAEEAMAAwADIAMwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAAMwBDAEEAMAAwAD
+SF:EANwAuAGEAcABjAHAAcgBkADAAMwAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KUZPR03CA0025.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.104.72.130
+Host is up (0.031s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+|_pop3-capabilities: UIDL TOP STLS
+|_ssl-date: 2026-03-05T11:42:56+00:00; 0s from scanner time.
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAANABDAEEAMAAwADEANwAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Protocol error. 19
+|     -ERR Protocol error. 19
+|   HTTPOptions: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAANABDAEEAMAAwADIANwAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Protocol error. 19
+|     -ERR Protocol error. 19
+|   NULL: 
+|_    +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAANABDAEEAMAAwADEANwAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+143/tcp open     imap
+|_ssl-date: 2026-03-05T11:43:00+00:00; 0s from scanner time.
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines, GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAANABDAEEAMAAwADEANQAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAANABDAEEAMAAwADEANQAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: KUZPR04CA0027.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B4,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20service\x20is\x20r
+SF:eady\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAANABDAEEAMAAwADEA
+SF:NwAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0
+SF:A\]\r\n")%r(GenericLines,E6,"\+OK\x20The\x20Microsoft\x20Exchange\x20PO
+SF:P3\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoA
+SF:UABSADAANABDAEEAMAAwADEANwAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHU
+SF:AdABsAG8AbwBrAC4AYwBvAG0A\]\r\n-ERR\x20Protocol\x20error\.\x2019\r\n-ER
+SF:R\x20Protocol\x20error\.\x2019\r\n")%r(HTTPOptions,E6,"\+OK\x20The\x20M
+SF:icrosoft\x20Exchange\x20POP3\x20service\x20is\x20ready\.\x20\(BACKENDAU
+SF:THENTICATE\)\x20\[SwBVAFoAUABSADAANABDAEEAMAAwADIANwAuAGEAcABjAHAAcgBkA
+SF:DAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n-ERR\x20Protoc
+SF:ol\x20error\.\x2019\r\n-ERR\x20Protocol\x20error\.\x2019\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAANABDAEEAMAA
+SF:wADEANQAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBVAFoAUABSADAANABDAEEAMAAwADEANQAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAANABDAEEAMAAwAD
+SF:EANQAuAGEAcABjAHAAcgBkADAANAAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KUZPR04CA0016.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.104.72.178
+Host is up (0.032s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 971a72ae-cfb8-4ce0-a3d6-f245ea00bd7e (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADEAOQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready e10befb5-5c66-48a0-8154-1fd7c6d237e1 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADEANQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready b56303fe-2501-4240-8483-05fb4f1149e1 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADIANQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 971a72ae-cfb8-4ce0-a3d6-f245ea00bd7e (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADEAOQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|   RPCCheck: 
+|     +OK Microsoft Exchange POP3 server ready e96849df-c867-4004-9e24-fd750c7493ee (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADIAOQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready 9a197bb9-550c-4c77-84f0-41042a1b6a98 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVAFoAUABSADAAMQBDAEEAMAAwADEANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+|_pop3-capabilities: UIDL TOP STLS
+143/tcp open     imap
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMQBDAEEAMAAwADEANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMQBDAEEAMAAwADIAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVAFoAUABSADAAMQBDAEEAMAAwADIAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|_ssl-date: 2026-03-05T11:42:56+00:00; 0s from scanner time.
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| smtp-commands: KUZPR01CA0023.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,F9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20971a72
+SF:ae-cfb8-4ce0-a3d6-f245ea00bd7e\x20\(tcpproxy/15\.20\.9678\.017\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMQBDAEEAMAAwADEAOQAuAGEAcABjAHA
+SF:AcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA
+SF:==\]\r\n")%r(GenericLines,127,"\+OK\x20Microsoft\x20Exchange\x20POP3\x2
+SF:0server\x20ready\x20971a72ae-cfb8-4ce0-a3d6-f245ea00bd7e\x20\(tcpproxy/
+SF:15\.20\.9678\.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMQBDA
+SF:EEAMAAwADEAOQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBn
+SF:AGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\
+SF:x20Invalid\x20command\.\r\n")%r(GetRequest,127,"\+OK\x20Microsoft\x20Ex
+SF:change\x20POP3\x20server\x20ready\x20e10befb5-5c66-48a0-8154-1fd7c6d237
+SF:e1\x20\(tcpproxy/15\.20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBV
+SF:AFoAUABSADAAMQBDAEEAMAAwADEANQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgB
+SF:lAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-ERR\x20Invalid\x20c
+SF:ommand\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(HTTPOptions,127,"\+OK\
+SF:x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20b56303fe-2501-42
+SF:40-8483-05fb4f1149e1\x20\(tcpproxy/15\.20\.9654\.022\x20BACKENDAUTHENTI
+SF:CATE\)\.\x20\[SwBVAFoAUABSADAAMQBDAEEAMAAwADIANQAuAGEAcABjAHAAcgBkADAAM
+SF:QAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-E
+SF:RR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(RTSP
+SF:Request,127,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x
+SF:209a197bb9-550c-4c77-84f0-41042a1b6a98\x20\(tcpproxy/15\.20\.9654\.022\
+SF:x20BACKENDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMQBDAEEAMAAwADEANgAuAGE
+SF:AcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAG
+SF:MAbwBtAA==\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20comm
+SF:and\.\r\n")%r(RPCCheck,F9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20ser
+SF:ver\x20ready\x20e96849df-c867-4004-9e24-fd750c7493ee\x20\(tcpproxy/15\.
+SF:20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVAFoAUABSADAAMQBDAEEAM
+SF:AAwADIAOQAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUA
+SF:bABhAGIAcwAuAGMAbwBtAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,C6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVAFoAUABSADAAMQBDAEEAMAA
+SF:wADIAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbA
+SF:BhAGIAcwAuAGMAbwBtAA==\]\r\n")%r(GetRequest,FA,"\*\x20OK\x20The\x20Micr
+SF:osoft\x20Exchange\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTH
+SF:ENTICATE\)\x20\[SwBVAFoAUABSADAAMQBDAEEAMAAwADIAMAAuAGEAcABjAHAAcgBkADA
+SF:AMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n
+SF:GET\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error
+SF:\.\x2012\r\n")%r(GenericLines,F8,"\*\x20OK\x20The\x20Microsoft\x20Excha
+SF:nge\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20
+SF:\[SwBVAFoAUABSADAAMQBDAEEAMAAwADEANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvA
+SF:GQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n\*\x20BAD\x20C
+SF:ommand\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n");
+Service Info: Host: KUZPR01CA0023.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.104.72.18
+Host is up (0.035s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     +OK Microsoft Exchange POP3 server ready 2204ecd0-46be-4cba-9877-2110c356713a (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADUAOQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 56f8e3df-5244-4912-86aa-a3147ec1f64f (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADYANAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready bcfe8111-fe52-46f7-ad2b-6680850cd5a6 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADUAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 5b6d5ca5-0b20-4b81-ba62-66f066ef26f7 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADYAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 56f8e3df-5244-4912-86aa-a3147ec1f64f (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADYANAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RPCCheck: 
+|     +OK Microsoft Exchange POP3 server ready c96347e6-098e-4648-9355-35fecc7a31ad (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADYAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready 00a12adb-28bc-47f5-9935-187e5a577204 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADYAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+143/tcp open     imap
+|_ssl-date: 2026-03-05T11:42:58+00:00; -1s from scanner time.
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADYAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADYAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADYAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_imap-capabilities: completed LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS CAPABILITY OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| smtp-commands: KU2P306CA0069.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x2056f8e3
+SF:df-5244-4912-86aa-a3147ec1f64f\x20\(tcpproxy/15\.20\.9678\.017\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADYANAAuAE0AWQBTAFA
+SF:AMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x2056f8e3df-5244-4912-86aa-a3147ec1f64f\x20\(tcpproxy/15\.20\.9678\.01
+SF:7\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADYANAAuA
+SF:E0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:GetRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20read
+SF:y\x20bcfe8111-fe52-46f7-ad2b-6680850cd5a6\x20\(tcpproxy/15\.20\.9678\.0
+SF:17\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADUAOAAu
+SF:AE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\
+SF:r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r
+SF:(HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x205b6d5ca5-0b20-4b81-ba62-66f066ef26f7\x20\(tcpproxy/15\.20\.9654\
+SF:.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADYAOA
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")
+SF:%r(RTSPRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20
+SF:ready\x2000a12adb-28bc-47f5-9935-187e5a577204\x20\(tcpproxy/15\.20\.965
+SF:4\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADYA
+SF:OAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA=
+SF:=\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n
+SF:")%r(RPCCheck,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x20c96347e6-098e-4648-9355-35fecc7a31ad\x20\(tcpproxy/15\.20\.9678\
+SF:.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADYAMg
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n")%r(DNSVersionBindReqTCP,E9,"\+OK\x20Microsoft\x20Exchange\x20POP
+SF:3\x20server\x20ready\x202204ecd0-46be-4cba-9877-2110c356713a\x20\(tcppr
+SF:oxy/15\.20\.9678\.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAAN
+SF:gBDAEEAMAAwADUAOQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8A
+SF:SwAuAEMATwBNAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADIAUAAzADAANgBDAEEAMAA
+SF:wADYAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATw
+SF:BNAA==\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBVADIAUAAzADAANgBDAEEAMAAwADYAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4
+SF:ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwAD
+SF:YAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNA
+SF:A==\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KU2P306CA0064.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -1s
+
+Nmap scan report for 40.104.72.50
+Host is up (0.035s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     +OK Microsoft Exchange POP3 server ready de847be6-2b4d-4c9a-a090-6e9ed949f203 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADEANwAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 7ba1538c-2069-4e45-b713-2e1cd8f89a16 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADEAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready 19bb2b9f-32a2-4c46-9aed-67a8a653c8ba (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADIAMQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready f188d562-25fe-4f31-b828-af5b93dd305c (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADEANgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 7ba1538c-2069-4e45-b713-2e1cd8f89a16 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADEAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RPCCheck: 
+|     +OK Microsoft Exchange POP3 server ready 661fbaa4-f8ce-455e-8f77-949e0c4b1719 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADIANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready d99494f2-de51-4b29-9603-5cefa7fb1f99 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADIAUAAzADAANgBDAEEAMAAwADEANgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+143/tcp open     imap
+|_imap-capabilities: completed LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS CAPABILITY OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: 2026-03-05T11:42:59+00:00; 0s from scanner time.
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADEAOQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADIANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADIAUAAzADAANgBDAEEAMAAwADIANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| smtp-commands: KU2P306CA0019.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x207ba153
+SF:8c-2069-4e45-b713-2e1cd8f89a16\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADEAOAAuAE0AWQBTAFA
+SF:AMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x207ba1538c-2069-4e45-b713-2e1cd8f89a16\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADEAOAAuA
+SF:E0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:GetRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20read
+SF:y\x2019bb2b9f-32a2-4c46-9aed-67a8a653c8ba\x20\(tcpproxy/15\.20\.9678\.0
+SF:17\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADIAMQAu
+SF:AE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\
+SF:r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r
+SF:(HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x20f188d562-25fe-4f31-b828-af5b93dd305c\x20\(tcpproxy/15\.20\.9678\
+SF:.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADEANg
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")
+SF:%r(RTSPRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20
+SF:ready\x20d99494f2-de51-4b29-9603-5cefa7fb1f99\x20\(tcpproxy/15\.20\.967
+SF:8\.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADEA
+SF:NgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA=
+SF:=\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n
+SF:")%r(RPCCheck,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x20661fbaa4-f8ce-455e-8f77-949e0c4b1719\x20\(tcpproxy/15\.20\.9678\
+SF:.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwADIANQ
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n")%r(DNSVersionBindReqTCP,E9,"\+OK\x20Microsoft\x20Exchange\x20POP
+SF:3\x20server\x20ready\x20de847be6-2b4d-4c9a-a090-6e9ed949f203\x20\(tcppr
+SF:oxy/15\.20\.9678\.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADIAUAAzADAAN
+SF:gBDAEEAMAAwADEANwAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8A
+SF:SwAuAEMATwBNAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B54%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADIAUAAzADAANgBDAEEAMAA
+SF:wADIANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATw
+SF:BNAA==\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBVADIAUAAzADAANgBDAEEAMAAwADIANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4
+SF:ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADIAUAAzADAANgBDAEEAMAAwAD
+SF:EAOQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNA
+SF:A==\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KU2P306CA0021.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.99.10.98
+Host is up (0.038s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 73c63822-bfdd-42fd-9cea-261c6988b810 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADIAUABSADAAMgBDAEEAMAAwADQANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 02a65768-b685-4bf1-a894-9efdb12009da (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADIAUABSADAAMgBDAEEAMAAwADQANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready 73c63822-bfdd-42fd-9cea-261c6988b810 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADIAUABSADAAMgBDAEEAMAAwADQANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+143/tcp open     imap
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+|_ssl-date: 2026-03-05T11:42:32+00:00; -24s from scanner time.
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADIAUABSADAAMgBDAEEAMAAwADUANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADIAUABSADAAMgBDAEEAMAAwADMAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADIAUABSADAAMgBDAEEAMAAwADMAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| smtp-commands: SI2PR02CA0050.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B5A%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x2073c638
+SF:22-bfdd-42fd-9cea-261c6988b810\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[UwBJADIAUABSADAAMgBDAEEAMAAwADQANAAuAGEAcABjAHA
+SF:AcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x2073c63822-bfdd-42fd-9cea-261c6988b810\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUABSADAAMgBDAEEAMAAwADQANAAuA
+SF:GEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x2002a65768-b685-4bf1-a894-9efdb12009da\x20\(tcpproxy/15\.20\.9654\.
+SF:022\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUABSADAAMgBDAEEAMAAwADQANAA
+SF:uAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B5F%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADIAUABSADAAMgBDAEEAMAA
+SF:wADMAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:UwBJADIAUABSADAAMgBDAEEAMAAwADMAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADIAUABSADAAMgBDAEEAMAAwAD
+SF:UANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: SI2PR02CA0048.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -24s
+
+Nmap scan report for 40.99.111.2
+Host is up (0.030s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 72177a8c-bbd0-458d-a389-a07ef825f32f (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADUANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready 7c7fb84d-71a9-475b-84c7-a5bf3e4b12f0 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADQANwAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 20a7eb54-945f-406a-94fc-ee723511a163 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADUANAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 72177a8c-bbd0-458d-a389-a07ef825f32f (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADUANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|   RPCCheck: 
+|     +OK Microsoft Exchange POP3 server ready 31ebdfc6-47c2-40f4-b230-93dc182c49b7 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADQANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready 8a34389a-b0c2-4352-bbce-0a743d8560fb (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMQBDAEEAMAAxADQAOAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+143/tcp open     imap
+|_ssl-date: 2026-03-05T11:42:59+00:00; 0s from scanner time.
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMQBDAEEAMAAxADUANwAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMQBDAEEAMAAxADUAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMQBDAEEAMAAxADUAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==]
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| smtp-commands: KL1PR01CA0155.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B5F%P=x86_64-pc-linux-gnu%r(NULL
+SF:,F9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x2072177a
+SF:8c-bbd0-458d-a389-a07ef825f32f\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMQBDAEEAMAAxADUANgAuAGEAcABjAHA
+SF:AcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA
+SF:==\]\r\n")%r(GenericLines,127,"\+OK\x20Microsoft\x20Exchange\x20POP3\x2
+SF:0server\x20ready\x2072177a8c-bbd0-458d-a389-a07ef825f32f\x20\(tcpproxy/
+SF:15\.20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMQBDA
+SF:EEAMAAxADUANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBn
+SF:AGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\
+SF:x20Invalid\x20command\.\r\n")%r(GetRequest,127,"\+OK\x20Microsoft\x20Ex
+SF:change\x20POP3\x20server\x20ready\x207c7fb84d-71a9-475b-84c7-a5bf3e4b12
+SF:f0\x20\(tcpproxy/15\.20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBM
+SF:ADEAUABSADAAMQBDAEEAMAAxADQANwAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgB
+SF:lAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-ERR\x20Invalid\x20c
+SF:ommand\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(HTTPOptions,127,"\+OK\
+SF:x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x2020a7eb54-945f-40
+SF:6a-94fc-ee723511a163\x20\(tcpproxy/15\.20\.9654\.022\x20BACKENDAUTHENTI
+SF:CATE\)\.\x20\[SwBMADEAUABSADAAMQBDAEEAMAAxADUANAAuAGEAcABjAHAAcgBkADAAM
+SF:QAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n-E
+SF:RR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(RTSP
+SF:Request,127,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x
+SF:208a34389a-b0c2-4352-bbce-0a743d8560fb\x20\(tcpproxy/15\.20\.9654\.022\
+SF:x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMQBDAEEAMAAxADQAOAAuAGE
+SF:AcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAG
+SF:MAbwBtAA==\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20comm
+SF:and\.\r\n")%r(RPCCheck,F9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20ser
+SF:ver\x20ready\x2031ebdfc6-47c2-40f4-b230-93dc182c49b7\x20\(tcpproxy/15\.
+SF:20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMQBDAEEAM
+SF:AAxADQANgAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUA
+SF:bABhAGIAcwAuAGMAbwBtAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,C6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUABSADAAMQBDAEEAMAA
+SF:xADUAMAAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbA
+SF:BhAGIAcwAuAGMAbwBtAA==\]\r\n")%r(GetRequest,FA,"\*\x20OK\x20The\x20Micr
+SF:osoft\x20Exchange\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTH
+SF:ENTICATE\)\x20\[SwBMADEAUABSADAAMQBDAEEAMAAxADUAMAAuAGEAcABjAHAAcgBkADA
+SF:AMQAuAHAAcgBvAGQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n
+SF:GET\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error
+SF:\.\x2012\r\n")%r(GenericLines,F8,"\*\x20OK\x20The\x20Microsoft\x20Excha
+SF:nge\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20
+SF:\[SwBMADEAUABSADAAMQBDAEEAMAAxADUANwAuAGEAcABjAHAAcgBkADAAMQAuAHAAcgBvA
+SF:GQALgBlAHgAYwBoAGEAbgBnAGUAbABhAGIAcwAuAGMAbwBtAA==\]\r\n\*\x20BAD\x20C
+SF:ommand\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n");
+Service Info: Host: KL1PR01CA0151.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.99.33.130
+Host is up (0.037s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready d452fb92-cb62-47f3-9ca5-790aca08637e (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADIANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 55b9b432-eb75-4804-981a-3dc2cc246a21 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADIANQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready d452fb92-cb62-47f3-9ca5-790aca08637e (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADIANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+143/tcp open     imap
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: 2026-03-05T11:42:59+00:00; 0s from scanner time.
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADEANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADEAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADEAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| smtp-commands: SI1PR02CA0023.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20d452fb
+SF:92-cb62-47f3-9ca5-790aca08637e\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADIANwAuAGEAcABjAHA
+SF:AcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20d452fb92-cb62-47f3-9ca5-790aca08637e\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADIANwAuA
+SF:GEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x2055b9b432-eb75-4804-981a-3dc2cc246a21\x20\(tcpproxy/15\.20\.9654\.
+SF:022\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADIANQA
+SF:uAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADEAUABSADAAMgBDAEEAMAA
+SF:wADEAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:UwBJADEAUABSADAAMgBDAEEAMAAwADEAOAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwAD
+SF:EANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: SI1PR02CA0018.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 40.99.33.146
+Host is up (0.037s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready cf57492a-2a79-4f0d-8870-f2bf2b92b877 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADUANgAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 0847795d-54c1-4a8d-9427-68dc2bcb9328 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADUAMwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready cf57492a-2a79-4f0d-8870-f2bf2b92b877 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [UwBJADEAUABSADAAMgBDAEEAMAAwADUANgAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_ssl-date: TLS randomness does not represent time
+143/tcp open     imap
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADUAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADYAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADEAUABSADAAMgBDAEEAMAAwADYAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_ssl-date: 2026-03-05T11:42:57+00:00; -4s from scanner time.
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: SI1PR02CA0048.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20cf5749
+SF:2a-2a79-4f0d-8870-f2bf2b92b877\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADUANgAuAGEAcABjAHA
+SF:AcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20cf57492a-2a79-4f0d-8870-f2bf2b92b877\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADUANgAuA
+SF:GEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x200847795d-54c1-4a8d-9427-68dc2bcb9328\x20\(tcpproxy/15\.20\.9678\.
+SF:017\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwADUAMwA
+SF:uAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADEAUABSADAAMgBDAEEAMAA
+SF:wADYAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:UwBJADEAUABSADAAMgBDAEEAMAAwADYAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADEAUABSADAAMgBDAEEAMAAwAD
+SF:UAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: SI1PR02CA0055.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -4s
+
+Nmap scan report for 40.99.8.210
+Host is up (0.028s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+|_pop3-capabilities: UIDL TOP STLS
+|_ssl-date: 2026-03-05T11:43:11+00:00; +12s from scanner time.
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, NULL, RPCCheck: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|   DNSVersionBindReqTCP: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADIALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|   GenericLines: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     -ERR Protocol error. 19
+|     -ERR Protocol error. 19
+|   GetRequest: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA2ADYALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     -ERR Protocol error. 19
+|     -ERR Protocol error. 19
+|   HTTPOptions: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADAALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     -ERR Protocol error. 19
+|     -ERR Protocol error. 19
+|   RTSPRequest: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADgALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     -ERR Protocol error. 19
+|_    -ERR Protocol error. 19
+143/tcp open     imap
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK Microsoft Exchange IMAP4 service ready. 4b011a03-71f7-4e42-ba5b-1a0f5c5316c4 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADAALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK Microsoft Exchange IMAP4 service ready. 4c92ebc4-19b0-4847-aaa3-0981d6d043e9 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA2ADIALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK Microsoft Exchange IMAP4 service ready. 4c92ebc4-19b0-4847-aaa3-0981d6d043e9 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE) [SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA2ADIALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: KL1P15301CA0066.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B8,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20service\x20is\x20r
+SF:eady\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAA
+SF:MAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8
+SF:ATQA=\]\r\n")%r(GenericLines,EA,"\+OK\x20The\x20Microsoft\x20Exchange\x
+SF:20POP3\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBM
+SF:ADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAA
+SF:uAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r\n-ERR\x20Protocol\x20error\.\x201
+SF:9\r\n-ERR\x20Protocol\x20error\.\x2019\r\n")%r(GetRequest,EA,"\+OK\x20T
+SF:he\x20Microsoft\x20Exchange\x20POP3\x20service\x20is\x20ready\.\x20\(BA
+SF:CKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA2ADYALgBBAF
+SF:AAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r\n-ER
+SF:R\x20Protocol\x20error\.\x2019\r\n-ERR\x20Protocol\x20error\.\x2019\r\n
+SF:")%r(HTTPOptions,EA,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20se
+SF:rvice\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUA
+SF:MwAwADEAQwBBADAAMAA1ADAALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEw
+SF:ATwBPAEsALgBDAE8ATQA=\]\r\n-ERR\x20Protocol\x20error\.\x2019\r\n-ERR\x2
+SF:0Protocol\x20error\.\x2019\r\n")%r(RTSPRequest,EA,"\+OK\x20The\x20Micro
+SF:soft\x20Exchange\x20POP3\x20service\x20is\x20ready\.\x20\(BACKENDAUTHEN
+SF:TICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADgALgBBAFAAQwBQADEAN
+SF:QAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r\n-ERR\x20Protoc
+SF:ol\x20error\.\x2019\r\n-ERR\x20Protocol\x20error\.\x2019\r\n")%r(RPCChe
+SF:ck,B8,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBAD
+SF:AAMAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDA
+SF:E8ATQA=\]\r\n")%r(DNSVersionBindReqTCP,B8,"\+OK\x20The\x20Microsoft\x20
+SF:Exchange\x20POP3\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)
+SF:\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADIALgBBAFAAQwBQADEANQAzAC4AU
+SF:ABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r\n")%r(DNSStatusRequestT
+SF:CP,B8,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBAD
+SF:AAMAA1ADUALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDA
+SF:E8ATQA=\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B64%P=x86_64-pc-linux-gnu%r(NULL
+SF:,F0,"\*\x20OK\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20ready\.\x
+SF:204c92ebc4-19b0-4847-aaa3-0981d6d043e9\x20\(tcpproxy/15\.20\.9700\.003\
+SF:x20BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA2ADIAL
+SF:gBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r
+SF:\n")%r(GetRequest,124,"\*\x20OK\x20Microsoft\x20Exchange\x20IMAP4\x20se
+SF:rvice\x20ready\.\x204c92ebc4-19b0-4847-aaa3-0981d6d043e9\x20\(tcpproxy/
+SF:15\.20\.9700\.003\x20BACKENDAUTHENTICATE\)\x20\[SwBMADEAUAAxADUAMwAwADE
+SF:AQwBBADAAMAA2ADIALgBBAFAAQwBQADEANQAzAC4AUABSAE8ARAAuAE8AVQBUAEwATwBPAE
+SF:sALgBDAE8ATQA=\]\r\nGET\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD
+SF:\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,122,"\*\x20OK\x20Micr
+SF:osoft\x20Exchange\x20IMAP4\x20service\x20ready\.\x204b011a03-71f7-4e42-
+SF:ba5b-1a0f5c5316c4\x20\(tcpproxy/15\.20\.9700\.003\x20BACKENDAUTHENTICAT
+SF:E\)\x20\[SwBMADEAUAAxADUAMwAwADEAQwBBADAAMAA1ADAALgBBAFAAQwBQADEANQAzAC
+SF:4AUABSAE8ARAAuAE8AVQBUAEwATwBPAEsALgBDAE8ATQA=\]\r\n\*\x20BAD\x20Comman
+SF:d\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n");
+Service Info: Host: KL1P15301CA0063.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 11s
+
+Nmap scan report for ec2-44-208-138-79.compute-1.amazonaws.com (44.208.138.79)
+Host is up (0.034s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  open     ssh          OpenSSH 9.6p1 Ubuntu 3ubuntu13.14 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 ea:82:11:4d:93:91:66:51:cc:7e:2c:4b:49:55:a4:fc (ECDSA)
+|_  256 43:06:14:2e:c1:a7:2f:f1:e8:ca:de:55:15:bf:23:d3 (ED25519)
+53/tcp  filtered domain
+110/tcp filtered pop3
+143/tcp filtered imap
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp filtered submission
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 52.97.97.194
+Host is up (0.031s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     +OK Microsoft Exchange POP3 server ready 319a1463-6731-45c6-8db1-33e8e4caf0e4 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 961bd921-c026-4f7a-887a-9b2ce2e56469 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready 5d28ffce-bf0d-4d69-a7c1-5aad34d8a253 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUAMwAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 1b32033b-e1eb-48d9-bf17-30ec40213055 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADQAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 961bd921-c026-4f7a-887a-9b2ce2e56469 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RPCCheck: 
+|     +OK Microsoft Exchange POP3 server ready 15fe2d71-59bf-489b-aae4-98f5ea88880a (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready 998b2f24-93ec-44a8-9bc4-b29ec527a537 (tcpproxy/15.20.9678.017 BACKENDAUTHENTICATE). [SwBVADAAUAAzADAANgBDAEEAMAAwADUAMgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+143/tcp open     imap
+|_imap-capabilities: completed LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS CAPABILITY OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+|_ssl-date: 2026-03-05T11:43:01+00:00; 0s from scanner time.
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADAAUAAzADAANgBDAEEAMAAwADQANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBVADAAUAAzADAANgBDAEEAMAAwADQANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: KU0P306CA0047.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B65%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20961bd9
+SF:21-c026-4f7a-887a-9b2ce2e56469\x20\(tcpproxy/15\.20\.9678\.017\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuAE0AWQBTAFA
+SF:AMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20961bd921-c026-4f7a-887a-9b2ce2e56469\x20\(tcpproxy/15\.20\.9678\.01
+SF:7\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADUANQAuA
+SF:E0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:GetRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20read
+SF:y\x205d28ffce-bf0d-4d69-a7c1-5aad34d8a253\x20\(tcpproxy/15\.20\.9678\.0
+SF:17\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADUAMwAu
+SF:AE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\
+SF:r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r
+SF:(HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x201b32033b-e1eb-48d9-bf17-30ec40213055\x20\(tcpproxy/15\.20\.9678\
+SF:.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADQAOA
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")
+SF:%r(RTSPRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20
+SF:ready\x20998b2f24-93ec-44a8-9bc4-b29ec527a537\x20\(tcpproxy/15\.20\.967
+SF:8\.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADUA
+SF:MgAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA=
+SF:=\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n
+SF:")%r(RPCCheck,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x2015fe2d71-59bf-489b-aae4-98f5ea88880a\x20\(tcpproxy/15\.20\.9678\
+SF:.017\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwADUANQ
+SF:AuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n")%r(DNSVersionBindReqTCP,E9,"\+OK\x20Microsoft\x20Exchange\x20POP
+SF:3\x20server\x20ready\x20319a1463-6731-45c6-8db1-33e8e4caf0e4\x20\(tcppr
+SF:oxy/15\.20\.9654\.022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBVADAAUAAzADAAN
+SF:gBDAEEAMAAwADUAOAAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8A
+SF:SwAuAEMATwBNAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B6A%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADAAUAAzADAANgBDAEEAMAA
+SF:wADQANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATw
+SF:BNAA==\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBVADAAUAAzADAANgBDAEEAMAAwADQANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4
+SF:ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBVADAAUAAzADAANgBDAEEAMAAwAD
+SF:UANQAuAE0AWQBTAFAAMwAwADYALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNA
+SF:A==\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KU0P306CA0046.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 52.98.43.130
+Host is up (0.030s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+|_pop3-capabilities: UIDL TOP STLS
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready e99735e3-57cd-4439-8e01-e586b6a62976 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADAANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 7587533b-28a5-4cef-aa82-c3df388a7e2c (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADAAMgAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready e99735e3-57cd-4439-8e01-e586b6a62976 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADAANwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+143/tcp open     imap
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADEAMwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADAAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADAAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_ssl-date: 2026-03-05T11:43:00+00:00; 0s from scanner time.
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| smtp-commands: KL1PR02CA0014.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B6C%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20e99735
+SF:e3-57cd-4439-8e01-e586b6a62976\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADAANwAuAGEAcABjAHA
+SF:AcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20e99735e3-57cd-4439-8e01-e586b6a62976\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADAANwAuA
+SF:GEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x207587533b-28a5-4cef-aa82-c3df388a7e2c\x20\(tcpproxy/15\.20\.9654\.
+SF:022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADAAMgA
+SF:uAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B6F%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUABSADAAMgBDAEEAMAA
+SF:wADAAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBMADEAUABSADAAMgBDAEEAMAAwADAAMQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwAD
+SF:EAMwAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KL1PR02CA0012.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 52.98.43.146
+Host is up (0.029s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready cc0d04ea-e557-48a6-802b-52d0fa6f802b (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADMANgAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 4185a27f-3434-48c6-86b0-719c2760a665 (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADEAOQAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|_    +OK Microsoft Exchange POP3 server ready cc0d04ea-e557-48a6-802b-52d0fa6f802b (tcpproxy/15.20.9654.022 BACKENDAUTHENTICATE). [SwBMADEAUABSADAAMgBDAEEAMAAwADMANgAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_pop3-capabilities: UIDL TOP STLS
+|_ssl-date: TLS randomness does not represent time
+143/tcp open     imap
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADMANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADMAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [SwBMADEAUABSADAAMgBDAEEAMAAwADMAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A]
+|_imap-capabilities: completed CAPABILITY LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS MOVE OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+|_ssl-date: 2026-03-05T11:42:56+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: KL1PR02CA0034.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B74%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20cc0d04
+SF:ea-e557-48a6-802b-52d0fa6f802b\x20\(tcpproxy/15\.20\.9654\.022\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADMANgAuAGEAcABjAHA
+SF:AcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20cc0d04ea-e557-48a6-802b-52d0fa6f802b\x20\(tcpproxy/15\.20\.9654\.02
+SF:2\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADMANgAuA
+SF:GEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20rea
+SF:dy\x204185a27f-3434-48c6-86b0-719c2760a665\x20\(tcpproxy/15\.20\.9654\.
+SF:022\x20BACKENDAUTHENTICATE\)\.\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwADEAOQA
+SF:uAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]
+SF:\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B74%P=x86_64-pc-linux-gnu%r(NULL
+SF:,B6,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is
+SF:\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUABSADAAMgBDAEEAMAA
+SF:wADMAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYw
+SF:BvAG0A\]\r\n")%r(GetRequest,EA,"\*\x20OK\x20The\x20Microsoft\x20Exchang
+SF:e\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[
+SF:SwBMADEAUABSADAAMgBDAEEAMAAwADMAMAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQ
+SF:ALgBvAHUAdABsAG8AbwBrAC4AYwBvAG0A\]\r\nGET\x20BAD\x20Command\x20Error\.
+SF:\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n")%r(GenericLines,E8
+SF:,"\*\x20OK\x20The\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20is\x2
+SF:0ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[SwBMADEAUABSADAAMgBDAEEAMAAwAD
+SF:MANAAuAGEAcABjAHAAcgBkADAAMgAuAHAAcgBvAGQALgBvAHUAdABsAG8AbwBrAC4AYwBvA
+SF:G0A\]\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Command\
+SF:x20Error\.\x2012\r\n");
+Service Info: Host: KL1PR02CA0035.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 52.98.54.130
+Host is up (0.037s latency).
+
+PORT    STATE    SERVICE      VERSION
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+53/tcp  filtered domain
+110/tcp open     pop3?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+|_pop3-capabilities: UIDL TOP STLS
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     +OK Microsoft Exchange POP3 server ready 02eb6252-ae88-4ddf-982d-52663db765af (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMgAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   GenericLines: 
+|     +OK Microsoft Exchange POP3 server ready 201aff52-7252-474e-bcee-641ab5db4479 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADEANAAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   GetRequest: 
+|     +OK Microsoft Exchange POP3 server ready 337e82a4-e88d-45a6-bc8c-da5879400bea (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMQAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   HTTPOptions: 
+|     +OK Microsoft Exchange POP3 server ready 652f9ae4-6be2-4ca3-a453-21098984a83d (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADEANQAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|     -ERR Invalid command.
+|   NULL: 
+|     +OK Microsoft Exchange POP3 server ready 201aff52-7252-474e-bcee-641ab5db4479 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADEANAAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RPCCheck: 
+|     +OK The Microsoft Exchange POP3 service is ready. (BACKENDAUTHENTICATE) [UwBJADIAUAAxADUAMwBDAEEAMAAwADAAOAAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|   RTSPRequest: 
+|     +OK Microsoft Exchange POP3 server ready 07d3db25-f08c-4e46-9a69-37a1e352133a (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE). [UwBJADIAUAAxADUAMwBDAEEAMAAwADEAMgAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     -ERR Invalid command.
+|_    -ERR Invalid command.
+143/tcp open     imap
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: completed LOGINDISABLED STARTTLS NAMESPACE IMAP4 UIDPLUS CAPABILITY OK ID LITERAL+A0001 CHILDREN SASL-IR UNSELECT IMAP4rev1 IDLE
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| fingerprint-strings: 
+|   GenericLines: 
+|     * OK The Microsoft Exchange IMAP4 service is ready. (BACKENDAUTHENTICATE) [UwBJADIAUAAxADUAMwBDAEEAMAAwADAANwAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   GetRequest: 
+|     * OK Microsoft Exchange IMAP4 service ready. d4a21f64-b11b-4ada-9f98-bebc082b8828 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE) [UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMQAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+|     Command Error. 12
+|     Command Error. 12
+|   NULL: 
+|_    * OK Microsoft Exchange IMAP4 service ready. d4a21f64-b11b-4ada-9f98-bebc082b8828 (tcpproxy/15.20.9700.003 BACKENDAUTHENTICATE) [UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMQAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==]
+444/tcp filtered snpp
+445/tcp filtered microsoft-ds
+465/tcp filtered smtps
+587/tcp open     smtp         Microsoft Exchange smtpd
+| ssl-cert: Subject: commonName=outlook.com/organizationName=Microsoft Corporation/stateOrProvinceName=Washington/countryName=US
+| Subject Alternative Name: DNS:*.clo.footprintdns.com, DNS:*.hotmail.com, DNS:*.internal.outlook.com, DNS:*.live.com, DNS:*.nrb.footprintdns.com, DNS:*.office.com, DNS:*.office365.com, DNS:*.outlook.com, DNS:*.outlook.office365.com, DNS:attachment.outlook.live.net, DNS:attachment.outlook.office.net, DNS:attachment.outlook.officeppe.net, DNS:attachments.office.net, DNS:attachments-sdf.office.net, DNS:ccs.login.microsoftonline.com, DNS:ccs-sdf.login.microsoftonline.com, DNS:hotmail.com, DNS:mail.services.live.com, DNS:office365.com, DNS:outlook.com, DNS:outlook.office.com, DNS:substrate.office.com, DNS:substrate-sdf.office.com
+| Not valid before: 2025-11-10T00:00:00
+|_Not valid after:  2026-11-09T23:59:59
+| smtp-commands: SI2P153CA0004.outlook.office365.com Hello [171.7.63.103], SIZE 157286400, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, 8BITMIME, BINARYMIME, CHUNKING, SMTPUTF8
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port110-TCP:V=7.98%I=7%D=3/5%Time=69A96B74%P=x86_64-pc-linux-gnu%r(NULL
+SF:,E9,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready\x20201aff
+SF:52-7252-474e-bcee-641ab5db4479\x20\(tcpproxy/15\.20\.9700\.003\x20BACKE
+SF:NDAUTHENTICATE\)\.\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADEANAAuAEEAUABDAFA
+SF:AMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n")%r(Gen
+SF:ericLines,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20ready
+SF:\x20201aff52-7252-474e-bcee-641ab5db4479\x20\(tcpproxy/15\.20\.9700\.00
+SF:3\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADEANAAuA
+SF:EEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r
+SF:\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r(
+SF:GetRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20read
+SF:y\x20337e82a4-e88d-45a6-bc8c-da5879400bea\x20\(tcpproxy/15\.20\.9700\.0
+SF:03\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMQAu
+SF:AEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\
+SF:r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")%r
+SF:(HTTPOptions,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20re
+SF:ady\x20652f9ae4-6be2-4ca3-a453-21098984a83d\x20\(tcpproxy/15\.20\.9700\
+SF:.003\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADEANQ
+SF:AuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\
+SF:]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n")
+SF:%r(RTSPRequest,117,"\+OK\x20Microsoft\x20Exchange\x20POP3\x20server\x20
+SF:ready\x2007d3db25-f08c-4e46-9a69-37a1e352133a\x20\(tcpproxy/15\.20\.970
+SF:0\.003\x20BACKENDAUTHENTICATE\)\.\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADEA
+SF:MgAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA=
+SF:=\]\r\n-ERR\x20Invalid\x20command\.\r\n-ERR\x20Invalid\x20command\.\r\n
+SF:")%r(RPCCheck,B4,"\+OK\x20The\x20Microsoft\x20Exchange\x20POP3\x20servi
+SF:ce\x20is\x20ready\.\x20\(BACKENDAUTHENTICATE\)\x20\[UwBJADIAUAAxADUAMwB
+SF:DAEEAMAAwADAAOAAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASw
+SF:AuAEMATwBNAA==\]\r\n")%r(DNSVersionBindReqTCP,E9,"\+OK\x20Microsoft\x20
+SF:Exchange\x20POP3\x20server\x20ready\x2002eb6252-ae88-4ddf-982d-52663db7
+SF:65af\x20\(tcpproxy/15\.20\.9700\.003\x20BACKENDAUTHENTICATE\)\.\x20\[Uw
+SF:BJADIAUAAxADUAMwBDAEEAMAAwADAAMgAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4AT
+SF:wBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port143-TCP:V=7.98%I=7%D=3/5%Time=69A96B74%P=x86_64-pc-linux-gnu%r(NULL
+SF:,EC,"\*\x20OK\x20Microsoft\x20Exchange\x20IMAP4\x20service\x20ready\.\x
+SF:20d4a21f64-b11b-4ada-9f98-bebc082b8828\x20\(tcpproxy/15\.20\.9700\.003\
+SF:x20BACKENDAUTHENTICATE\)\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADAAMQAuAEEAU
+SF:ABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n")
+SF:%r(GetRequest,120,"\*\x20OK\x20Microsoft\x20Exchange\x20IMAP4\x20servic
+SF:e\x20ready\.\x20d4a21f64-b11b-4ada-9f98-bebc082b8828\x20\(tcpproxy/15\.
+SF:20\.9700\.003\x20BACKENDAUTHENTICATE\)\x20\[UwBJADIAUAAxADUAMwBDAEEAMAA
+SF:wADAAMQAuAEEAUABDAFAAMQA1ADMALgBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATw
+SF:BNAA==\]\r\nGET\x20BAD\x20Command\x20Error\.\x2012\r\n\*\x20BAD\x20Comm
+SF:and\x20Error\.\x2012\r\n")%r(GenericLines,E8,"\*\x20OK\x20The\x20Micros
+SF:oft\x20Exchange\x20IMAP4\x20service\x20is\x20ready\.\x20\(BACKENDAUTHEN
+SF:TICATE\)\x20\[UwBJADIAUAAxADUAMwBDAEEAMAAwADAANwAuAEEAUABDAFAAMQA1ADMAL
+SF:gBQAFIATwBEAC4ATwBVAFQATABPAE8ASwAuAEMATwBNAA==\]\r\n\*\x20BAD\x20Comma
+SF:nd\x20Error\.\x2012\r\n\*\x20BAD\x20Command\x20Error\.\x2012\r\n");
+Service Info: Host: SI2P153CA0017.outlook.office365.com; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Post-scan script results:
+| clock-skew: 
+|   0s: 
+|     40.99.33.130
+|     52.97.97.194
+|     40.99.111.2
+|     52.98.43.146
+|     40.104.72.178
+|     40.104.72.114
+|     52.98.43.130
+|     40.104.72.50
+|_    40.104.72.130
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar  5 06:43:18 2026 -- 19 IP addresses (19 hosts up) scanned in 268.39 seconds

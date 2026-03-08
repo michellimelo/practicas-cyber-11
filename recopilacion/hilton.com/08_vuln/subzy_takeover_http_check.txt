@@ -1,0 +1,21 @@
+### marketing.hilton.com
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="/styles/status-code-error-page.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>404 Not Found</h1>
+      <p class="bold">
+        The resource you are looking for has been removed, had its name changed,
+        or is temporarily unavailable.
+      </p>
+      <p>We apologize for the inconvenience.</p>
+    </div>
+  </body>
+</html>
+
+### pki.hilton.com
+

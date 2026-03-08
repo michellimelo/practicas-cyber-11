@@ -1,0 +1,12 @@
+File Name                       : HILTON-WORLDWIDE-INC_10K_2023_V1.pdf
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.7
+Page Count                      : 120
+XMP Toolkit                     : Adobe XMP Core 5.6-c016 91.163616, 2018/10/29-16:58:49
+Modify Date                     : 2023:04:03 12:10:55-05:00
+Create Date                     : 2023:03:24 15:45:07-04:00
+Metadata Date                   : 2023:03:24 16:06:16-04:00
+Document ID                     : uuid:729766b8-be6f-479c-88dc-809ac0d3b25f
+Instance ID                     : uuid:0525c83c-8929-4d0b-b24d-211815cc4161

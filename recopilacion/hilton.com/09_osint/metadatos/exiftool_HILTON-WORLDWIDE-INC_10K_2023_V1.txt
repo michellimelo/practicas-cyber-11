@@ -1,0 +1,23 @@
+ExifTool Version Number         : 13.50
+File Name                       : HILTON-WORLDWIDE-INC_10K_2023_V1.pdf
+Directory                       : /home/kali/recopilacion/hilton.com/09_osint/metadatos/docs
+File Size                       : 1759 kB
+File Modification Date/Time     : 2023:04:04 16:01:29-04:00
+File Access Date/Time           : 2026:03:08 11:14:42-04:00
+File Inode Change Date/Time     : 2026:03:08 11:14:42-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.7
+Linearized                      : No
+Has XFA                         : No
+Page Count                      : 120
+Page Layout                     : TwoPageRight
+XMP Toolkit                     : Adobe XMP Core 5.6-c016 91.163616, 2018/10/29-16:58:49
+Modify Date                     : 2023:04:03 12:10:55-05:00
+Create Date                     : 2023:03:24 15:45:07-04:00
+Metadata Date                   : 2023:03:24 16:06:16-04:00
+Format                          : application/pdf
+Document ID                     : uuid:729766b8-be6f-479c-88dc-809ac0d3b25f
+Instance ID                     : uuid:0525c83c-8929-4d0b-b24d-211815cc4161
