@@ -1,0 +1,22 @@
+Fase 4 - Documentos publicos y metadatos
+
+Documentos analizados:
+- CERTF_ISO_22716_ED_6_SESDERMA_ES.pdf
+- Certif_N_14_02_004BPF_SES_18_05_21.pdf
+- Cover-and-Cover-Story-PCM-Jan-2026-lowres.pdf
+- ES_REVISTA-THE-ENTERPRISE-WORLD-ESP-LOW.pdf
+- MEDIDERMA_ESVLC189519_V1RV4_ISO13485_ES14_15445_issue9_Digicert.pdf
+
+Hallazgos:
+- Se identificaron documentos publicos alojados en sesderma.com y skinexpert.sesderma.com.
+- Los documentos incluyen certificaciones, contenido corporativo y publicaciones mediaticas.
+- Se observaron metadatos con herramientas de generacion PDF como Ghostscript, Adobe InDesign, Adobe Illustrator y Stimulsoft Reports.
+- En dos documentos aparecen identificadores de usuario o autor: carmen_rios y pcadmin.
+- En un documento aparece referencia tecnica a Stimulsoft Reports 2021.2.4 y .NET 6.0.
+- La informacion observada procede de documentos publicos y no implica explotacion ni acceso no autorizado.
+
+Valor OSINT:
+- Confirma actividad documental publica asociada a certificaciones y comunicacion corporativa.
+- Aporta contexto sobre herramientas usadas para generar documentos publicos.
+- Permite identificar posibles patrones internos de generacion documental.
+- Los identificadores encontrados deben tratarse con prudencia y no considerarse por si solos datos verificables de empleados.

@@ -1,0 +1,25 @@
+Fase 3 - Evidencias reutilizadas de fases anteriores
+
+Activos finales de trabajo:
+- vpn.sesderma.com
+- skinexpert.sesderma.com
+- portal.sesderma.com
+- pedidos.sesderma.com
+
+Evidencias base ya existentes:
+- ~/osint/sesderma/fase2/httpx_fingerprint.txt
+- ~/osint/sesderma/fase2/headers/vpn.sesderma.com.txt
+- ~/osint/sesderma/fase2/headers/skinexpert.sesderma.com.txt
+- ~/osint/sesderma/fase2/headers/portal.sesderma.com.txt
+- ~/osint/sesderma/fase2/headers/pedidos.sesderma.com.txt
+- ~/osint/sesderma/fase2/tls/vpn.sesderma.com.txt
+- ~/osint/sesderma/fase2/tls/skinexpert.sesderma.com.txt
+- ~/osint/sesderma/fase2/tls/portal.sesderma.com.txt
+- ~/osint/sesderma/fase2/tls/pedidos.sesderma.com.txt
+- ~/osint/sesderma/fase2/whatweb/vpn.sesderma.com.txt
+- ~/osint/sesderma/fase2/whatweb/skinexpert.sesderma.com.txt
+- ~/osint/sesderma/fase2/whatweb/portal.sesderma.com.txt
+- ~/osint/sesderma/fase2/whatweb/pedidos.sesderma.com.txt
+
+Criterio:
+No se repiten pruebas ya ejecutadas. Esta fase consolida y contrasta únicamente la evidencia existente para cerrar la selección final.

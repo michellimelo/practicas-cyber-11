@@ -1,0 +1,31 @@
+### sesderma.com
+31.170.100.204
+### www.sesderma.com
+www.sesderma.com.cdn.cloudflare.net.
+104.17.109.43
+104.17.110.43
+### skinexpert.sesderma.com
+31.170.100.204
+### support.sesderma.com
+217.130.47.24
+### portal.sesderma.com
+89.7.106.185
+### sapportal.sesderma.com
+89.7.106.184
+### vpn.sesderma.com
+89.7.106.180
+### development.sesderma.com
+development.sesderma.com.cdn.cloudflare.net.
+104.18.43.224
+172.64.144.32
+### pedidos.sesderma.com
+89.7.106.185
+### autodiscover.sesderma.com
+autodiscover.outlook.com.
+autodiscover.outlook.cloud.microsoft.
+acdcatm.autodiscover.mira.tm.svc.cloud.microsoft.
+autod.ms-acdc-autod.office.com.
+52.98.250.184
+52.97.117.40
+52.97.117.8
+52.97.117.56

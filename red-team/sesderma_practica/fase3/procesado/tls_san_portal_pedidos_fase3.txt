@@ -1,0 +1,8 @@
+===== portal.sesderma.com =====
+X509v3 Subject Alternative Name: 
+    DNS:pedidos.sesderma.com
+
+===== pedidos.sesderma.com =====
+X509v3 Subject Alternative Name: 
+    DNS:pedidos.sesderma.com
+

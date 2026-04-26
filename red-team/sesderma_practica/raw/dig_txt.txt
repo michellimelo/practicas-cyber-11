@@ -1,0 +1,1 @@
+"v=spf1 ip4:94.127.193.126 include:spf.protection.outlook.com include:amazonses.com include:servers.mcsv.net include:spf.sendinblue.com a:production.eu01.sesderma.demandware.net mx ~all"

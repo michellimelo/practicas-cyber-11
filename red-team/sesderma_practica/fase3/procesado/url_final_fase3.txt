@@ -1,0 +1,24 @@
+===== vpn.sesderma.com =====
+url_final: https://vpn.sesderma.com/
+codigo_http: 200
+content_type: text/html
+servidor_ip: 89.7.106.180
+
+===== skinexpert.sesderma.com =====
+url_final: https://skinexpert.sesderma.com/
+codigo_http: 200
+content_type: text/html; charset=UTF-8
+servidor_ip: 31.170.100.204
+
+===== portal.sesderma.com =====
+url_final: https://portal.sesderma.com/
+codigo_http: 404
+content_type: text/html; charset=iso-8859-1
+servidor_ip: 89.7.106.185
+
+===== pedidos.sesderma.com =====
+url_final: https://pedidos.sesderma.com/
+codigo_http: 404
+content_type: text/html; charset=iso-8859-1
+servidor_ip: 89.7.106.185
+

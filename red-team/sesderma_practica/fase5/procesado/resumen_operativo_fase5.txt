@@ -1,0 +1,15 @@
+Fase 5 - Riesgos observables
+
+Hallazgos principales:
+- skinexpert.sesderma.com confirma una superficie WordPress publica con documentos PDF accesibles en rutas /wp-content/uploads/.
+- pedidos.sesderma.com:84 expone una aplicacion de acceso funcional en puerto no estandar, con titulo Acceso · Sesderma y backend Apache/2.4.25 (Win32) OpenSSL/1.0.2j.
+- me.sesderma.com muestra rutas funcionales de cuenta cliente y posible entorno prelive, pero protegidas por Cloudflare con HTTP 403.
+- srvbapps.sesderma.com responde como VPN Portal con acceso restringido y servidor ofuscado.
+- Los hallazgos se consideran observables publicamente, sin explotacion ni acceso no autorizado.
+
+Riesgos asociados:
+- Exposicion de portales de autenticacion visibles publicamente.
+- Presencia de aplicacion en puerto no estandar.
+- Backend legacy visible en Apache/Win32/OpenSSL antiguo.
+- Superficie CMS publica con documentos indexados.
+- Posible exposicion innecesaria de rutas funcionales o entornos no destinados a usuario final.

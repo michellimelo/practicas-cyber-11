@@ -1,0 +1,12 @@
+===== portal.sesderma.com =====
+subject=CN=pedidos.sesderma.com
+issuer=C=US, O=Let's Encrypt, CN=R12
+notBefore=Apr 21 17:19:09 2026 GMT
+notAfter=Jul 20 17:19:08 2026 GMT
+
+===== pedidos.sesderma.com =====
+subject=CN=pedidos.sesderma.com
+issuer=C=US, O=Let's Encrypt, CN=R12
+notBefore=Apr 21 17:19:09 2026 GMT
+notAfter=Jul 20 17:19:08 2026 GMT
+

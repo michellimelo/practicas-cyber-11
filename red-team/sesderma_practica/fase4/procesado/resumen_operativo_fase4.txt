@@ -1,0 +1,33 @@
+Fase 4 - OSINT corporativo Sesderma
+
+Fuentes trabajadas:
+- Web oficial de Sesderma.
+- Paginas legales y de contacto.
+- Enlaces corporativos visibles.
+- Redes sociales oficiales.
+- Busquedas web controladas.
+- Documentos PDF publicos.
+- Metadatos de documentos publicos.
+
+Hallazgos principales:
+- Se confirma SESDERMA, S.L. como entidad corporativa visible.
+- Se confirma el NIF B-97443394.
+- Se identifican correos corporativos genericos: info@sesderma.com, clientes@sesderma.com y atencionalcliente@sesderma.com.
+- Se identifican telefonos publicos corporativos asociados a oficinas, atencion online y atencion farmacia.
+- Se identifican sedes o localizaciones publicas en Puzol y Rafelbunyol, Valencia.
+- Se identifican redes sociales oficiales: Facebook, LinkedIn, X/Twitter, Instagram, TikTok y YouTube.
+- Se identifican dominios y plataformas relacionadas: mediderma.com, sesdermaacademy.com, sesdermatv.com, skinexpert.sesderma.com, fundaciongabrielserrano.com, clinicaserrano.com y drgabrielserrano.com.
+- Se observa presencia internacional mediante dominios regionales y referencias publicas de expansion.
+- Se identifica al Dr. Gabriel Serrano como figura publica principal y fundador de Sesderma y Mediderma.
+- Se localizaron y descargaron 5 documentos PDF publicos relevantes.
+- Se analizaron metadatos de documentos con ExifTool.
+- Se detectaron herramientas de generacion documental como Ghostscript, Adobe InDesign, Adobe Illustrator y Stimulsoft Reports.
+- Se observaron identificadores tecnicos en metadatos como carmen_rios y pcadmin, tratados con prudencia.
+- No se identificaron documentos DOCX, XLSX o PPTX utiles en las busquedas realizadas.
+- No se realizaron busquedas de credenciales, filtraciones, fuerza bruta ni explotacion.
+
+Valor OSINT:
+- La fase aporta una vision corporativa amplia de Sesderma.
+- Complementa el reconocimiento tecnico previo con datos legales, contactos, plataformas, presencia internacional, documentos publicos y metadatos.
+- Permite separar informacion corporativa util de ruido.
+- Deja preparada una fase posterior de exposicion publica y rutas sensibles indexadas, sin mezclarla con el OSINT corporativo.

@@ -1,0 +1,6 @@
+issuer=C=US, O=Let's Encrypt, CN=R12
+subject=CN=pedidos.sesderma.com
+notBefore=Apr 21 17:19:09 2026 GMT
+notAfter=Jul 20 17:19:08 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:pedidos.sesderma.com

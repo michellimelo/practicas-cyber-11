@@ -1,0 +1,6 @@
+issuer=C=US, O=Let's Encrypt, CN=E7
+subject=CN=vpn.sesderma.com
+notBefore=Apr  7 12:07:17 2026 GMT
+notAfter=Jul  6 12:07:16 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:vpn.sesderma.com

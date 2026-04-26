@@ -1,0 +1,24 @@
+Fase 3 - Validacion ligera de activos priorizados
+
+Activos analizados:
+- vpn.sesderma.com
+- skinexpert.sesderma.com
+- portal.sesderma.com
+- pedidos.sesderma.com
+
+Resultados principales:
+- vpn.sesderma.com responde como VPN Portal.
+- vpn.sesderma.com diferencia comportamiento entre HEAD 403 y GET 200.
+- skinexpert.sesderma.com responde como activo funcional de contenido publico.
+- portal.sesderma.com por HTTPS devuelve 404.
+- portal.sesderma.com por HTTP devuelve pagina generica Apache "It works!".
+- pedidos.sesderma.com por HTTPS devuelve 404.
+- pedidos.sesderma.com por HTTP devuelve 403 Forbidden.
+- portal.sesderma.com y pedidos.sesderma.com comparten IP, backend Apache/Win32 y mismo cuerpo de respuesta por HTTPS.
+- portal.sesderma.com presenta certificado TLS cuyo SAN solo incluye pedidos.sesderma.com.
+
+Seleccion final para fase siguiente:
+- vpn.sesderma.com
+- skinexpert.sesderma.com
+- portal.sesderma.com
+- pedidos.sesderma.com

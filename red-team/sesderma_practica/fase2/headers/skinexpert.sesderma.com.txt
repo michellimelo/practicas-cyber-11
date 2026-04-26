@@ -1,0 +1,11 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
+HTTP/2 200 
+server: nginx
+date: Thu, 23 Apr 2026 18:19:45 GMT
+content-type: text/html; charset=UTF-8
+x-powered-by: PHP/7.4.33
+link: <https://skinexpert.sesderma.com/wp-json/>; rel="https://api.w.org/", <https://skinexpert.sesderma.com/wp-json/wp/v2/pages/5070>; rel="alternate"; title="JSON"; type="application/json", <https://skinexpert.sesderma.com/>; rel=shortlink
+x-powered-by: PleskLin
+

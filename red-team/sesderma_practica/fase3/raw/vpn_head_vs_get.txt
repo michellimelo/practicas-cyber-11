@@ -1,0 +1,13 @@
+===== vpn.sesderma.com HEAD =====
+HTTP/1.1 403 Forbidden
+Server: xxxx
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html; charset=iso-8859-1
+
+===== vpn.sesderma.com GET =====
+HTTP/1.1 200 OK
+Server: xxxx
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000
+Content-Type: text/html

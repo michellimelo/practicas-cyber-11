@@ -1,0 +1,235 @@
+======== documentos/CERTF_ISO_22716_ED_6_SESDERMA_ES.pdf
+ExifTool Version Number         : 13.50
+File Name                       : CERTF_ISO_22716_ED_6_SESDERMA_ES.pdf
+Directory                       : documentos
+File Size                       : 759 kB
+File Modification Date/Time     : 2023:12:01 03:16:54-05:00
+File Access Date/Time           : 2026:04:24 10:39:00-04:00
+File Inode Change Date/Time     : 2026:04:24 10:38:59-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.3
+Linearized                      : No
+Page Count                      : 2
+Producer                        : GPL Ghostscript 8.64
+Create Date                     : 2022:10:14 10:01:50+02:00
+Modify Date                     : 2022:10:14 10:01:50+02:00
+Title                           : ESVLC_015061_CertificateTemplate_ISO22716_Final (2).pdf
+Creator                         : PScript5.dll Version 5.2.2
+Author                          : carmen_rios
+======== documentos/Certif_N_14_02_004BPF_SES_18_05_21.pdf
+ExifTool Version Number         : 13.50
+File Name                       : Certif_N_14_02_004BPF_SES_18_05_21.pdf
+Directory                       : documentos
+File Size                       : 254 kB
+File Modification Date/Time     : 2023:12:01 03:16:54-05:00
+File Access Date/Time           : 2026:04:24 10:39:00-04:00
+File Inode Change Date/Time     : 2026:04:24 10:38:55-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+Linearized                      : No
+Page Count                      : 3
+Has XFA                         : No
+PDF Version                     : 1.7
+Producer                        : AEMPS
+Create Date                     : 2021:05:18 22:34:26+02:00
+Modify Date                     : 2021:05:18 22:34:28+02:00
+======== documentos/Cover-and-Cover-Story-PCM-Jan-2026-lowres.pdf
+ExifTool Version Number         : 13.50
+File Name                       : Cover-and-Cover-Story-PCM-Jan-2026-lowres.pdf
+Directory                       : documentos
+File Size                       : 2.2 MB
+File Modification Date/Time     : 2026:01:12 11:33:25-05:00
+File Access Date/Time           : 2026:04:24 10:39:00-04:00
+File Inode Change Date/Time     : 2026:04:24 10:39:00-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.4
+Linearized                      : No
+Language                        : en-GB
+Tagged PDF                      : Yes
+XMP Toolkit                     : Adobe XMP Core 9.1-c001 79.675d0f7, 2023/06/11-19:21:16
+Create Date                     : 2026:01:08 12:29:34Z
+Metadata Date                   : 2026:01:08 12:30:42Z
+Modify Date                     : 2026:01:08 12:30:42Z
+Creator Tool                    : Adobe InDesign 21.1 (Macintosh)
+Instance ID                     : uuid:9a699f47-9712-f542-b13d-ec924af2facb
+Original Document ID            : xmp.did:ee3efc6c-f870-4bc7-8dc6-45da12bc27a3
+Document ID                     : xmp.id:370118aa-c0ba-454d-bf08-b8de16b4bacc
+Rendition Class                 : proof:pdf
+History Action                  : converted
+History Parameters              : from application/x-indesign to application/pdf
+History Software Agent          : Adobe InDesign 21.1 (Macintosh)
+History Changed                 : /
+History When                    : 2026:01:08 12:29:34Z
+Derived From Instance ID        : xmp.iid:ad82169f-9461-42e4-8d38-2ffb9fb60110
+Derived From Document ID        : xmp.did:ee3efc6c-f870-4bc7-8dc6-45da12bc27a3
+Derived From Original Document ID: xmp.did:ee3efc6c-f870-4bc7-8dc6-45da12bc27a3
+Derived From Rendition Class    : default
+Format                          : application/pdf
+Producer                        : Adobe PDF Library 18.0
+Trapped                         : False
+Page Count                      : 3
+Creator                         : Adobe InDesign 21.1 (Macintosh)
+======== documentos/ES_REVISTA-THE-ENTERPRISE-WORLD-ESP-LOW.pdf
+ExifTool Version Number         : 13.50
+File Name                       : ES_REVISTA-THE-ENTERPRISE-WORLD-ESP-LOW.pdf
+Directory                       : documentos
+File Size                       : 8.4 MB
+File Modification Date/Time     : 2024:11:14 07:47:06-05:00
+File Access Date/Time           : 2026:04:24 10:39:00-04:00
+File Inode Change Date/Time     : 2026:04:24 10:38:59-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.5
+Linearized                      : Yes
+XMP Toolkit                     : Adobe XMP Core 9.1-c002 79.e06fd49, 2023/10/04-19:08:29
+Create Date                     : 2024:01:17 11:15:39+01:00
+Creator Tool                    : Adobe Illustrator 28.1 (Macintosh)
+Modify Date                     : 2024:01:17 11:15:39+01:00
+Metadata Date                   : 2024:01:17 11:15:39+01:00
+Thumbnail Width                 : 256
+Thumbnail Height                : 24
+Thumbnail Format                : JPEG
+Thumbnail Image                 : (Binary data 4068 bytes, use -b option to extract)
+Producer                        : Adobe PDF library 17.00
+Format                          : application/pdf
+Creator                         : pcadmin
+Title                           : The Most Innovative Leaders ESP
+N Pages                         : 1
+Has Visible Transparency        : True
+Has Visible Overprint           : False
+Max Page Size W                 : 203.000000
+Max Page Size H                 : 266.700000
+Max Page Size Unit              : Millimeters
+Font Name                       : Fahkwang-Bold, ApexSans-Light, ApexSans-Book, ApexSans-Medium, ApexSans-Bold, Avenir-Book, MyriadPro-Regular, Montserrat-Bold, Montserrat-Thin, OpenSans, OpenSans-Semibold, OpenSans-CondensedBold, TimesNewRomanPSMT, TimesNewRomanPS-BoldMT, KozGoPr6N-Regular, CenturyGothic, CenturyGothic-Bold, CenturyGothic-BoldItalic
+Font Family                     : Fahkwang, Apex Sans, Apex Sans, Apex Sans, Apex Sans, Avenir, Myriad Pro, Montserrat, Montserrat, Open Sans, Open Sans, Open Sans Condensed, Times New Roman, Times New Roman, 小塚ゴシック Pr6N, Century Gothic, Century Gothic, Century Gothic
+Font Face                       : Bold, Light, Book, Medium, Bold, Book, Regular, Bold, Thin, Regular, Semibold, Bold, Regular, Bold, R, Regular, Bold, Bold Italic
+Font Type                       : TrueType, Open Type, Open Type, Open Type, Open Type, TrueType, Open Type, TrueType, TrueType, Open Type, Open Type, TrueType, Open Type, Open Type, Open Type, Open Type, Open Type, Open Type
+Font Version                    : Version 1.000; ttfautohint (v1.6), Version 6.000 2007 revised OpenType release, Version 6.000 2007 revised OpenType release, Version 6.000 2007 revised OpenType release, Version 6.000 2007 revised OpenType release, 13.0d3e1, Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329, Version 7.200, Version 8.000, Version 1.10, Version 1.10, Version 1.11, Version 5.01.3x, Version 5.01.3x, Version 6.020;PS 6.008;hotconv 1.0.70;makeotf.lib2.5.5900, 13.0d1e4, 13.0d1e4, 13.0d1e4
+Font Composite                  : False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False
+Font File Name                  : Fahkwang-Bold.ttf, ApexSans-Light.otf, ApexSans-Book.otf, ApexSans-Medium.otf, ApexSans-Bold.otf, Avenir.ttc, MyriadPro-Regular.otf, Montserrat-Bold.ttf, Montserrat-VariableFont_wght.ttf, OpenSans-Regular.ttf, OpenSans-Semibold.ttf, OpenSans-CondBold.ttf, Times New Roman.ttf, Times New Roman Bold.ttf, KozGoPr6N-Regular.otf, CenturyGothic.ttc, CenturyGothic.ttc, CenturyGothic.ttc
+Plate Names                     : Cyan, Magenta, Yellow, Black, PANTONE 432 C
+Swatch Group Name               : Grupo de muestras por defecto
+Swatch Group Type               : 0
+Swatch Colorant Swatch Name     : PANTONE 7608 C, C=0 M=0 Y=0 K=0, C=70 M=61 Y=58 K=72, C=19 M=38 Y=59 K=7, C=34 M=65 Y=92 K=41, C=15 M=34 Y=53 K=4, C=30 M=59 Y=90 K=28, C=58 M=48 Y=47 K=39, C=4 M=7 Y=11 K=0, C=27 M=53 Y=82 K=20, C=35 M=62 Y=59 K=43, C=25 M=50 Y=46 K=16, C=16 M=28 Y=27 K=3, C=62 M=53 Y=45 K=39, C=75 M=67 Y=59 K=80, C=16 M=34 Y=53 K=4, C=30 M=58 Y=91 K=29, C=34 M=65 Y=93 K=41, C=58 M=48 Y=47 K=38, C=17 M=20 Y=25 K=2, C=19 M=26 Y=33 K=4, C=9 M=6 Y=7 K=0, C=18 M=12 Y=13 K=0, C=17 M=19 Y=25 K=2, C=22 M=41 Y=62 K=11, C=27 M=54 Y=82 K=20, C=16 M=59 Y=95 K=5, C=19 M=38 Y=59 K=7 2, C=4 M=7 Y=11 K=0 2, C=37 M=66 Y=66 K=45, C=14 M=48 Y=43 K=26, PANTONE 432 C
+Swatch Colorant Type            : PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, PROCESS, SPOT
+Swatch Colorant Tint            : 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000, 100.000000
+Swatch Colorant Mode            : CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, CMYK, Lab
+Swatch Colorant Cyan            : 24.618906, 0.000000, 69.921875, 19.140625, 33.593750, 15.234375, 29.687500, 58.203125, 4.296875, 26.562500, 35.156250, 25.000000, 16.406250, 62.109375, 75.000000, 15.625000, 30.078125, 33.593750, 58.203125, 16.796875, 18.750000, 9.375000, 17.578125, 17.187500, 22.265625, 26.562500, 16.015625, 19.140625, 3.906250, 37.000000, 14.000000
+Swatch Colorant Magenta         : 78.228426, 0.000000, 61.328125, 38.281250, 64.843750, 34.375000, 58.984375, 48.437500, 7.031250, 53.125000, 61.718750, 50.390625, 27.734375, 52.734375, 66.796875, 33.984375, 58.203125, 64.843750, 48.046875, 19.921875, 25.781250, 5.859375, 11.718750, 19.140625, 41.406250, 53.515625, 58.593750, 37.890625, 7.421875, 66.000003, 47.999999
+Swatch Colorant Yellow          : 71.117723, 0.000000, 58.203125, 58.984375, 92.187500, 52.734375, 90.234375, 46.875000, 11.328125, 82.031250, 59.375000, 46.484375, 26.953125, 44.531250, 59.375000, 52.734375, 91.015625, 92.968750, 46.875000, 25.390625, 33.203125, 7.031250, 13.281250, 25.000000, 61.718750, 81.640625, 95.312500, 59.375000, 11.328125, 66.000003, 43.000001
+Swatch Colorant Black           : 18.048371, 0.000000, 71.875000, 7.421875, 41.406250, 3.515625, 27.734375, 39.062500, 0.000000, 19.921875, 43.359375, 15.625000, 2.734375, 38.671875, 79.687500, 3.906250, 28.515625, 41.015625, 38.281250, 1.562500, 3.906250, 0.000000, 0.000000, 1.562500, 10.937500, 19.531250, 4.687500, 7.421875, 0.000000, 44.999999, 25.999999
+Swatch Colorant L               : 25.490196
+Swatch Colorant A               : -3
+Swatch Colorant B               : -8
+Creator Sub Tool                : Adobe Illustrator
+Document ID                     : xmp.did:4b4d092f-062b-4f03-91aa-c7bfcfca7a4f
+Instance ID                     : uuid:91b145f9-dd13-7146-9ba6-bad8cfe8ed2d
+Original Document ID            : xmp.did:247a6d4b-8ebf-4eda-8010-e29c14a48095
+Rendition Class                 : proof:pdf
+Derived From Instance ID        : uuid:52d119ce-badc-7545-a610-0dd285e355ad
+Derived From Document ID        : xmp.did:1b5cd286-9cdb-4d33-9a33-694f0d79d8b6
+Derived From Original Document ID: xmp.did:247a6d4b-8ebf-4eda-8010-e29c14a48095
+Derived From Rendition Class    : default
+History Action                  : saved, saved
+History Instance ID             : xmp.iid:247a6d4b-8ebf-4eda-8010-e29c14a48095, xmp.iid:4b4d092f-062b-4f03-91aa-c7bfcfca7a4f
+History When                    : 2023:12:27 15:48:23+01:00, 2024:01:17 11:15:34+01:00
+History Software Agent          : Adobe Illustrator 27.0 (Macintosh), Adobe Illustrator 28.1 (Macintosh)
+History Changed                 : /, /
+Manifest Link Form              : EmbedByReference, EmbedByReference
+Manifest Reference File Path    : /Volumes/Mac_Files2/NUEVA IMAGEN/CORPORATIVO/DOCTOR/ENTREVISTAS/The Most Innovative Leaders/Originales/THE ENTERPRISE WORLD_Cover Page.jpg, /Users/f.suarez/Downloads/Imagen 1.png
+Manifest Reference Document ID  : 0
+Manifest Reference Instance ID  : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b
+Ingredients File Path           : /Users/f.suarez/Downloads/Imagen 1.png
+Page Count                      : 9
+Media Black Point               : 0 0 0
+Red Matrix Column               : 0.43607 0.22249 0.01392
+Green Matrix Column             : 0.38515 0.71687 0.09708
+Blue Matrix Column              : 0.14307 0.06061 0.7141
+Device Mfg Desc                 : IEC http://www.iec.ch
+Device Model Desc               : IEC 61966-2.1 Default RGB colour space - sRGB
+Luminance                       : 76.03647 80 87.12462
+Measurement Observer            : CIE 1931
+Measurement Backing             : 0 0 0
+Measurement Geometry            : Unknown
+Measurement Flare               : 0.999%
+Measurement Illuminant          : D65
+Red Tone Reproduction Curve     : (Binary data 2060 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 2060 bytes, use -b option to extract)
+Blue Tone Reproduction Curve    : (Binary data 2060 bytes, use -b option to extract)
+Profile CMM Type                : Adobe Systems Inc.
+Profile Version                 : 2.1.0
+Profile Class                   : Output Device Profile
+Color Space Data                : CMYK
+Profile Connection Space        : Lab
+Profile Date Time               : 2007:05:15 16:30:03
+Profile File Signature          : acsp
+Primary Platform                : Apple Computer Inc.
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : Adobe Systems Inc.
+Device Model                    : 
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Adobe Systems Inc.
+Profile ID                      : 0
+Profile Description             : Coated FOGRA39 (ISO 12647-2:2004)
+Profile Copyright               : Copyright 2007 Adobe Systems, Inc.
+Media White Point               : 0.8448 0.87621 0.7457
+Char Target                     : ICCHDAT FOGRA39
+Technology                      : Offset Lithography
+Viewing Cond Desc               : D50
+Viewing Cond Illuminant         : 613.82878 636.61977 525.14764
+Viewing Cond Surround           : 122.76576 127.32396 105.02953
+Viewing Cond Illuminant Type    : D50
+A To B0                         : (Binary data 89958 bytes, use -b option to extract)
+A To B2                         : (Binary data 89958 bytes, use -b option to extract)
+A To B1                         : (Binary data 89958 bytes, use -b option to extract)
+B To A0                         : (Binary data 145588 bytes, use -b option to extract)
+B To A1                         : (Binary data 145588 bytes, use -b option to extract)
+B To A2                         : (Binary data 145588 bytes, use -b option to extract)
+Gamut                           : (Binary data 37009 bytes, use -b option to extract)
+Author                          : pcadmin
+======== documentos/MEDIDERMA_ESVLC189519_V1RV4_ISO13485_ES14_15445_issue9_Digicert.pdf
+ExifTool Version Number         : 13.50
+File Name                       : MEDIDERMA_ESVLC189519_V1RV4_ISO13485_ES14_15445_issue9_Digicert.pdf
+Directory                       : documentos
+File Size                       : 1632 kB
+File Modification Date/Time     : 2023:12:01 03:16:54-05:00
+File Access Date/Time           : 2026:04:24 10:39:00-04:00
+File Inode Change Date/Time     : 2026:04:24 10:38:55-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.7
+Linearized                      : No
+Encryption                      : Standard V1.2 (40-bit)
+User Access                     : Print, Fill forms, Extract, Assemble, Print high-res
+Page Count                      : 3
+Tagged PDF                      : Yes
+XMP Toolkit                     : Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:14:39
+Modify Date                     : 2023:01:13 14:08:14+00:00
+Create Date                     : 2023:01:13 14:08:14+00:00
+Metadata Date                   : 2023:01:13 14:08:14+00:00
+Creator Tool                    : Stimulsoft Reports 2021.2.4 from 22 April 2021, .NET 6.0
+Format                          : application/pdf
+Title                           : GenericCertificate_NewLayout
+Description                     : GenericCertificate_NewLayout
+Creator                         : 
+Subject                         : 
+Document ID                     : uuid:d141a471-617f-6c5d-e369-2b6ee69169e9
+Instance ID                     : uuid:d141a471-617f-6c5d-e369-2b6ee69169e9
+Producer                        : Stimulsoft Reports
+Keywords                        : 
+Page Mode                       : UseNone
+    5 image files read

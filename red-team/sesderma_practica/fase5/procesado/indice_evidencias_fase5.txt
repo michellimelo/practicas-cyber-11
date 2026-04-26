@@ -1,0 +1,6 @@
+fase5/procesado/clasificacion_hallazgos_fase5.txt
+fase5/procesado/dominios_objetivo_fase5.txt
+fase5/procesado/hallazgos_urls_fase5.txt
+fase5/procesado/indice_evidencias_fase5.txt
+fase5/procesado/senales_html_funcionales_fase5.txt
+fase5/raw/validacion_headers_urls_fase5.txt

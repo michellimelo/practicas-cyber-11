@@ -1,0 +1,44 @@
+===== https://skinexpert.sesderma.com/wp-content/uploads/2024/02/EN_REVISTA-THE-ENTERPRISE-WORLD-ENG-LOW.pdf =====
+HTTP/2 200 
+server: nginx
+content-type: application/pdf
+x-powered-by: PleskLin
+
+===== https://skinexpert.sesderma.com/wp-content/uploads/2022/05/EN_SOUL-254-abril_DR.-SERRANO-1.pdf =====
+HTTP/2 200 
+server: nginx
+content-type: application/pdf
+x-powered-by: PleskLin
+
+===== https://skinexpert.sesderma.com/wp-content/uploads/2020/10/V.2_07.10.20_Mesa-Redonda_Lactoferrina-1.pdf =====
+HTTP/2 200 
+server: nginx
+content-type: application/pdf
+x-powered-by: PleskLin
+
+===== https://skinexpert.sesderma.com/wp-content/uploads/2024/01/Dr.-Gabriel-Serrano-LEVANTE-12.01.24.pdf =====
+HTTP/2 200 
+server: nginx
+content-type: application/pdf
+x-powered-by: PleskLin
+
+===== http://pedidos.sesderma.com:84/iniciodel.pro?LANG=EN =====
+HTTP/1.1 200 OK
+Server: Apache/2.4.25 (Win32) OpenSSL/1.0.2j
+Content-Type: text/html
+
+===== https://me.sesderma.com/en-qa/prelive.html =====
+HTTP/2 403 
+content-type: text/html; charset=UTF-8
+server: cloudflare
+
+===== https://me.sesderma.com/en-ae/customer/account/login/ =====
+HTTP/2 403 
+content-type: text/html; charset=UTF-8
+server: cloudflare
+
+===== https://srvbapps.sesderma.com/ =====
+HTTP/1.1 403 Forbidden
+Server: xxxx
+Content-Type: text/html; charset=iso-8859-1
+

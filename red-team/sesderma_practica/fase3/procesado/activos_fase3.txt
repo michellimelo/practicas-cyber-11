@@ -1,0 +1,4 @@
+vpn.sesderma.com
+skinexpert.sesderma.com
+portal.sesderma.com
+pedidos.sesderma.com

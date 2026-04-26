@@ -1,0 +1,4 @@
+vpn.sesderma.com | alta | autenticacion/acceso remoto | HTTPS GET 200, HEAD 403, titulo VPN Portal
+skinexpert.sesderma.com | alta | contenido funcional | HTTPS 200, blog Skinexpert, contenido publico
+portal.sesderma.com | media | backend compartido/configuracion anomala | HTTPS 404, HTTP 200 It works, certificado solo para pedidos.sesderma.com
+pedidos.sesderma.com | media | backend compartido/restringido | HTTPS 404, HTTP 403, mismo backend que portal, certificado correcto para pedidos.sesderma.com

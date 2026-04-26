@@ -1,0 +1,6 @@
+issuer=C=US, O=Let's Encrypt, CN=R13
+subject=CN=skinexpert.sesderma.com
+notBefore=Mar 20 05:52:58 2026 GMT
+notAfter=Jun 18 05:52:57 2026 GMT
+X509v3 Subject Alternative Name: 
+    DNS:skinexpert.sesderma.com
