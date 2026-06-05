@@ -1,0 +1,36 @@
+ExifTool Version Number         : 13.55
+File Name                       : IMG_2148_whatsapp.JPG
+Directory                       : /Users/michelli/Downloads
+File Size                       : 520 kB
+File Modification Date/Time     : 2026:06:02 15:13:32+02:00
+File Access Date/Time           : 2026:06:02 18:26:04+02:00
+File Inode Change Date/Time     : 2026:06:02 18:26:15+02:00
+File Permissions                : -rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Exif Byte Order                 : Big-endian (Motorola, MM)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Y Cb Cr Positioning             : Centered
+Exif Version                    : 0221
+Components Configuration        : Y, Cb, Cr, -
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 1536
+Exif Image Height               : 2048
+Scene Capture Type              : Standard
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 304
+Thumbnail Length                : 9579
+Image Width                     : 1536
+Image Height                    : 2048
+Encoding Process                : Progressive DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 1536x2048
+Megapixels                      : 3.1
+Thumbnail Image                 : (Binary data 9579 bytes, use -b option to extract)
